@@ -40,8 +40,8 @@ const questions = [
         color: "#e74a3b",
         answers: [
             { desc: "(I don't know)", subset: results },
-            { desc: "My focus is on the world as it is, without reference to my personal opinion.", subset: ["ESE", "ILE", "SLE", "EIE", "LIE", "SEE", "IEE", "LSE"] },
-            { desc: "The focus of my attention is not just something, but first of all what this something means to me personally.", subset: ["LII", "SEI", "IEI", "LSI", "ESI", "ILI", "SLI", "EII"] },
+            { desc: "My focus is on the world as it is, without reference to my personal opinion, so I am usually unbiased and change my opinion easily.", subset: ["ESE", "ILE", "SLE", "EIE", "LIE", "SEE", "IEE", "LSE"] },
+            { desc: "My focus is not just on something, but first and foremost on what that something means to me personally, so I am often biased and subjective, and my opinion changes with difficulty.", subset: ["LII", "SEI", "IEI", "LSI", "ESI", "ILI", "SLI", "EII"] },
         ]
     },
     {
