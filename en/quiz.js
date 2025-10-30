@@ -140,7 +140,7 @@ const questions = [
         "answers": [
             { desc: "(I don't know)", subset: results },
             {
-                "desc": "The things that are the focus of my attention and the methods with which I solve the problem usually do not coincide in terms of abstractness. I either use abstract models and methods to work with concrete things and people, or I create things and emotions/relationships guided by abstract principles.",
+                "desc": "The things I focus on and the methods I use to solve problems usually don't align with the abstractness criterion. I either use abstract models and methods to work with concrete things and people, or I create abstract models, methods, and predictions about concrete objects or people.",
                 "subset": [
                     "IEI",
                     "SLE",
@@ -740,3 +740,4 @@ $(document).ready(function() {
         ).join(''));
     });
 });
+
