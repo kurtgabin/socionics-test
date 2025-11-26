@@ -126,7 +126,7 @@ const questions = [
         "answers": [
             { desc: "(Не знаю)", subset: results },
             {
-                "desc": "Вещи, находящиеся в фокусе моего внимания, и методы, которыми я решаю проблему, обычно не совпадают по критерию абстрактности. Я либо использую абстрактные модели и методы для работы с конкретными вещами и людьми, либо создаю абстрактные модели, методы и прогнозы в отношении конкретных объектов или людей.",
+                "desc": "Вещи, находящиеся в фокусе моего внимания, и методы, которыми я решаю проблему, обычно не совпадают по критерию абстрактности. Я либо использую абстрактные модели и методы для работы с конкретными вещами и людьми, либо создаю вещи и эмоции / отношения руководствуясь абстрактными принципами.",
                 "subset": [
                     "ИЭИ",
                     "СЛЭ",
@@ -258,11 +258,11 @@ const questions = [
         "answers": [
             { desc: "(Не знаю)", subset: results },
             {
-                "desc": "Моя жизнь - это история борьбы с собственными слабостями.",
+                "desc": "Моя жизнь это история борьбы со своими слабостями. У меня есть что-то одно из двух: либо а) я одержим идеей устранить их все, либо б) позволяю себе все и борюсь с последствиями.",
                 "subset": [ "ЛИИ", "ЭСЭ", "ЛСИ", "ЭИЭ", "ИЛИ", "СЭЭ", "СЛИ", "ИЭЭ" ]
             },
             {
-                "desc": "Что?",
+                "desc": "Я где-то между этих двух крайностей.",
                 "subset": [ "СЭИ", "ИЛЭ", "ИЭИ", "СЛЭ", "ЭСИ", "ЛИЭ", "ЭИИ", "ЛСЭ" ]
             },
         ]
@@ -604,6 +604,179 @@ const questions = [
 let selectedAnswers = Array(questions.length).fill(0);
 let currentResults = [...results];
 
+// Track which answers were manually selected by user (vs auto-filled)
+let userSelectedAnswers = Array(questions.length).fill(false);
+
+// Track if user opted out of conflict dialogs
+let dialogOptedOut = false;
+
+function showConflictDialog(newQuestionIndex, newAnswerIndex, conflictingQuestionIndices, onConfirm, onCancel) {
+    const newQuestion = questions[newQuestionIndex];
+    const newAnswer = newQuestion.answers[newAnswerIndex];
+    const newSubset = newAnswer.subset;
+
+    // Build modal HTML
+    let modalHtml = `
+        <div class="modal fade" id="conflictModal" tabindex="-1" aria-labelledby="conflictModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="conflictModalLabel">Вы уверены?</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="alert alert-warning" role="alert">
+                            Ваш выбор конфликтует с предыдущими ответами. Если вы хотите оставить его, придется пожертвовать теми ответами, в которых вы менее всего уверены.
+                        </div>
+
+                        <div class="mb-4">
+                            <h6 class="text-success mb-3"><i class="bi bi-plus-circle"></i> Новый ответ:</h6>
+                            <div class="card border-success">
+                                <div class="card-body">
+                                    <h6 class="card-title">${newQuestion.caption}</h6>
+                                    <p class="card-text">${newAnswer.desc}</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <h6 class="mb-3"><i class="bi bi-list-check"></i> Ваши предыдущие ответы (снимите галочку, чтобы удалить):</h6>
+    `;
+
+    conflictingQuestionIndices.forEach((qi, index) => {
+        const question = questions[qi];
+        const answer = question.answers[selectedAnswers[qi]];
+        modalHtml += `
+            <div class="card border-danger mb-2 conflict-answer-card" data-question-index="${qi}">
+                <div class="card-body">
+                    <div class="form-check">
+                        <input class="form-check-input conflict-checkbox" type="checkbox" checked id="conflictCheck${index}" data-question-index="${qi}">
+                        <label class="form-check-label" for="conflictCheck${index}">
+                            <h6 class="card-title mb-2">${question.caption}</h6>
+                            <p class="card-text mb-0">${answer.desc}</p>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        `;
+    });
+
+    modalHtml += `
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="dontShowAgainCheckbox">
+                            <label class="form-check-label" for="dontShowAgainCheckbox">
+                                Больше не показывать это окно (до сброса)
+                            </label>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" id="conflictCancelBtn">Оставить предыдущие ответы</button>
+                        <button type="button" class="btn btn-primary" id="conflictConfirmBtn" disabled>Выбрать новый ответ</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    `;
+
+    // Remove existing modal if any
+    $('#conflictModal').remove();
+
+    // Add modal to body
+    $('body').append(modalHtml);
+
+    // Get modal instance
+    const modalElement = document.getElementById('conflictModal');
+    const modal = new bootstrap.Modal(modalElement);
+
+    // Validation function
+    function validateSelection() {
+        // Get checked question indices
+        const keptQuestionIndices = [];
+        $('.conflict-checkbox:checked').each(function() {
+            keptQuestionIndices.push(parseInt($(this).data('question-index')));
+        });
+
+        // Validate: start with new answer's subset
+        let testSubset = [...newSubset];
+
+        // Filter by each kept answer
+        for (let qi of keptQuestionIndices) {
+            const answerSubset = questions[qi].answers[selectedAnswers[qi]].subset;
+            testSubset = testSubset.filter(t => answerSubset.includes(t));
+        }
+
+        const isValid = testSubset.length > 0;
+
+        // Update UI
+        $('.conflict-answer-card').each(function() {
+            const isChecked = $(this).find('.conflict-checkbox').is(':checked');
+
+            if (isChecked) {
+                // Checked = keeping this answer
+                if (isValid) {
+                    $(this).removeClass('border-danger').addClass('border-success');
+                } else {
+                    $(this).removeClass('border-success').addClass('border-danger');
+                }
+            } else {
+                // Unchecked = removing this answer, show neutral
+                $(this).removeClass('border-danger border-success').addClass('border-secondary');
+            }
+        });
+
+        // Enable/disable confirm button
+        $('#conflictConfirmBtn').prop('disabled', !isValid);
+
+        return isValid;
+    }
+
+    // Handle checkbox changes
+    $('.conflict-checkbox').on('change', function() {
+        validateSelection();
+    });
+
+    // Handle Cancel button
+    $('#conflictCancelBtn').on('click', function() {
+        if ($('#dontShowAgainCheckbox').is(':checked')) {
+            dialogOptedOut = true;
+        }
+        modal.hide();
+        onCancel();
+    });
+
+    // Handle close button (same as cancel)
+    $(modalElement).on('hidden.bs.modal', function() {
+        if (!$(this).data('confirmed')) {
+            onCancel();
+        }
+        $(this).remove();
+    });
+
+    // Handle Confirm button
+    $('#conflictConfirmBtn').on('click', function() {
+        if ($('#dontShowAgainCheckbox').is(':checked')) {
+            dialogOptedOut = true;
+        }
+
+        // Get which questions to remove (unchecked ones)
+        const questionsToRemove = [];
+        $('.conflict-checkbox').each(function() {
+            if (!$(this).is(':checked')) {
+                questionsToRemove.push(parseInt($(this).data('question-index')));
+            }
+        });
+
+        $(modalElement).data('confirmed', true);
+        modal.hide();
+        onConfirm(questionsToRemove);
+    });
+
+    // Show modal
+    modal.show();
+}
+
 function renderQuestions() {
     $('#questions').empty();
     questions.forEach((q, qi) => {
@@ -682,6 +855,13 @@ $(document).ready(function() {
         const name = $(this).attr('name');
         const qi = parseInt(name.substring(1));
         const ai = parseInt($(this).val());
+
+        // Store previous state in case we need to revert
+        const previousAnswers = [...selectedAnswers];
+        const previousUserSelected = [...userSelectedAnswers];
+        const clickedElement = this;
+
+        // Temporarily apply the new answer to check for conflicts
         selectedAnswers[qi] = ai;
 
         let possibleTypes = [...results];
@@ -689,11 +869,115 @@ $(document).ready(function() {
             possibleTypes = possibleTypes.filter(r => questions[selQi].answers[selAi].subset.includes(r));
         });
 
+        // Check if there's a conflict
         if (possibleTypes.length === 0) {
+            // Use new answer's subset to check which previous answers would be reset
+            const newSubset = questions[qi].answers[ai].subset;
+
+            // Find user-selected answers that would be reset (incompatible with new subset)
+            const conflictingQuestionIndices = [];
+            for (let idx = 0; idx < questions.length; idx++) {
+                if (idx === qi) continue; // Skip the current question
+                if (!userSelectedAnswers[idx]) continue; // Skip auto-filled answers
+                if (selectedAnswers[idx] === 0) continue; // Skip "I don't know"
+
+                // Check if this question has ANY answer compatible with newSubset
+                let hasCompatibleAnswer = false;
+                for (let aj = 1; aj < questions[idx].answers.length; aj++) {
+                    if (newSubset.every(t => questions[idx].answers[aj].subset.includes(t))) {
+                        hasCompatibleAnswer = true;
+                        break;
+                    }
+                }
+
+                // If no compatible answer exists, this question will be reset
+                if (!hasCompatibleAnswer) {
+                    conflictingQuestionIndices.push(idx);
+                }
+            }
+
+            // If there are conflicting user-selected answers and user hasn't opted out, show dialog
+            if (conflictingQuestionIndices.length > 0 && !dialogOptedOut) {
+                // Revert to previous state
+                selectedAnswers = [...previousAnswers];
+                userSelectedAnswers = [...previousUserSelected];
+
+                // Uncheck the clicked radio button
+                $(clickedElement).prop('checked', false);
+                // Re-check the previous selection
+                if (previousAnswers[qi] !== undefined) {
+                    $(`input[name="q${qi}"][value="${previousAnswers[qi]}"]`).prop('checked', true);
+                }
+
+                // Show conflict dialog
+                showConflictDialog(
+                    qi,
+                    ai,
+                    conflictingQuestionIndices,
+                    // onConfirm: user chose new answer, questionsToRemove is array of indices to reset
+                    function(questionsToRemove) {
+                        // Apply the new selection
+                        selectedAnswers[qi] = ai;
+                        userSelectedAnswers[qi] = true;
+
+                        // Reset only the questions user chose to remove
+                        questionsToRemove.forEach(idx => {
+                            selectedAnswers[idx] = 0;
+                            userSelectedAnswers[idx] = false;
+                        });
+
+                        // Recalculate and update
+                        applyAnswerChanges(qi, ai);
+                    },
+                    // onCancel: user kept previous answers
+                    function() {
+                        // Nothing to do, already reverted
+                    }
+                );
+
+                return; // Don't proceed with normal logic
+            }
+
+            // If user opted out and there are conflicts, automatically reset conflicting answers
+            if (conflictingQuestionIndices.length > 0 && dialogOptedOut) {
+                conflictingQuestionIndices.forEach(idx => {
+                    selectedAnswers[idx] = 0;
+                    userSelectedAnswers[idx] = false;
+                });
+            }
+
+            // No user-selected conflicts or opted out: use new answer's subset
             possibleTypes = questions[qi].answers[ai].subset.slice();
         }
 
+        // Mark this answer as user-selected
+        userSelectedAnswers[qi] = true;
+
+        // Apply changes
+        applyAnswerChanges(qi, ai);
+    });
+
+    // Function to apply answer changes and update UI
+    function applyAnswerChanges(changedQi, changedAi) {
+        // Calculate possibleTypes based on ONLY user-selected answers
+        let possibleTypes = [...results];
+        selectedAnswers.forEach((selAi, selQi) => {
+            // Only include user-selected answers in the calculation
+            if (userSelectedAnswers[selQi] || selQi === changedQi) {
+                possibleTypes = possibleTypes.filter(r => questions[selQi].answers[selAi].subset.includes(r));
+            }
+        });
+
+        if (possibleTypes.length === 0) {
+            possibleTypes = questions[changedQi].answers[changedAi].subset.slice();
+        }
+
         questions.forEach((q, idx) => {
+            // Skip user-selected answers - don't auto-reset them
+            if (userSelectedAnswers[idx]) {
+                return;
+            }
+
             let found = false;
             for (let aj = 1; aj < q.answers.length; aj++) {
                 if (possibleTypes.every(t => q.answers[aj].subset.includes(t))) {
@@ -714,16 +998,17 @@ $(document).ready(function() {
             `<a href="${resultDetails[r].link}" title="${resultDetails[r].name}" style="color:#0d6efd;text-decoration:none;display:block;padding:3px 8px;border-radius:4px" onmouseover="this.style.backgroundColor='rgba(13,110,253,0.1)'" onmouseout="this.style.backgroundColor='transparent'">${r}</a>`
         ).join('') : 'No matching types');
         renderQuestions();
-    });
+    }
 
     // Reset button
     $('#resetBtn').click(function () {
         selectedAnswers = Array(questions.length).fill(0);
         currentResults = [...results];
+        userSelectedAnswers = Array(questions.length).fill(false);
+        dialogOptedOut = false;
         renderQuestions();
         $('#results').html(currentResults.map(r =>
             `<a href="${resultDetails[r].link}" title="${resultDetails[r].name}" style="color:#0d6efd;text-decoration:none;display:block;padding:3px 8px;border-radius:4px" onmouseover="this.style.backgroundColor='rgba(13,110,253,0.1)'" onmouseout="this.style.backgroundColor='transparent'">${r}</a>`
         ).join(''));
     });
 });
-
