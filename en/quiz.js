@@ -103,8 +103,8 @@ const questions = [
         color: "#e74a3b",
         answers: [
             { desc: "(I don't know)", subset: results },
-            { desc: "I am open to simple human communication and do not hate when someone shares their emotions or details about their personal life with others. I see society as a collection of people communicating with each other, in which the most important is the one whose word remains last or at least is heard by the largest possible number of people. I find it unpleasant when dry calculations are put above universal human values.", subset: ["LII", "SEI", "ESE", "ILE", "IEI", "LSI", "SLE", "EIE"] },
-            { desc: "I am open to participating in collaborative work activities and dislike it when emotions are exposed. I see society as a collection of people performing their function, in which the most important is the one who determines the entire chain of actions or at least can influence the way the actions of as many people as possible are performed. I hate it when rationally organized activities are destroyed for sentimental reasons.", subset: ["ESI", "ILI", "LIE", "SEE", "SLI", "EII", "IEE", "LSE"] },
+            { desc: "I am open to simple human communication and do not hate when someone shares their emotions or details about their personal life with others. I see society as a collection of people communicating with each other, in which the most important is the one whose word remains last or at least is heard by the largest possible number of people. I find it unpleasant when dry calculations are put above universal human values. I expect solidarity from my interlocutor.", subset: ["LII", "SEI", "ESE", "ILE", "IEI", "LSI", "SLE", "EIE"] },
+            { desc: "I am open to participating in collaborative work activities and dislike it when emotions are exposed. I see society as a collection of people performing their function, in which the most important is the one who determines the entire chain of actions or at least can influence the way the actions of as many people as possible are performed. I hate it when rationally organized activities are destroyed for sentimental reasons. I expect subjectness from my interlocutor.", subset: ["ESI", "ILI", "LIE", "SEE", "SLI", "EII", "IEE", "LSE"] },
         ]
     },
     {
@@ -140,7 +140,7 @@ const questions = [
         "answers": [
             { desc: "(I don't know)", subset: results },
             {
-                "desc": "The things that are the focus of my attention and the methods with which I solve the problem usually do not coincide in terms of abstractness. I either use abstract models and methods to work with concrete things and people, or I create things and emotions/relationships guided by abstract principles.",
+                "desc": "The things I focus on and the methods I use to solve problems usually don't align with the abstractness criterion. I either use abstract models and methods to work with concrete things and people, or I create abstract models and methods applicable to concrete things and people.",
                 "subset": [
                     "IEI",
                     "SLE",
@@ -272,7 +272,7 @@ const questions = [
         "answers": [
             { desc: "(I don't know)", subset: results },
             {
-                "desc": "My life is a story of struggling with my weaknesses. I have one of two things: either a) I'm obsessed with eliminating them all, or b) I indulge myself and deal with the consequences.",
+                "desc": "My life is a story of struggling with my weaknesses. I have one of two things: either 1) I'm obsessed with eliminating them all, or 2) I indulge myself and deal with the consequences.",
                 "subset": [ "LII", "ESE", "LSI", "EIE", "ILI", "SEE", "SLI", "IEE" ]
             },
             {
@@ -1026,3 +1026,4 @@ $(document).ready(function() {
         ).join(''));
     });
 });
+
