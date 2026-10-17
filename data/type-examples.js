@@ -61,14 +61,6 @@ window.TYPE_EXAMPLES = {
           "youtube_id": "gEA9oCbemws"
         },
         {
-          "id": 410,
-          "description": "Дон, рассказывает разное",
-          "url": "https://www.youtube.com/watch?v=BCeKQXsnqRE",
-          "platform": "youtube",
-          "youtube_kind": "video",
-          "youtube_id": "BCeKQXsnqRE"
-        },
-        {
           "id": 408,
           "description": "Донка, нашла себе мужика",
           "url": "https://www.youtube.com/watch?v=n2zH5f2gYgE",
