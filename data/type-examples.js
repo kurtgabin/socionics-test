@@ -734,6 +734,14 @@ window.TYPE_EXAMPLES = {
           "youtube_id": "rM6sNuNMx80"
         },
         {
+          "id": 177,
+          "description": "Анастасия Заворотнюк",
+          "url": "https://www.youtube.com/watch?v=EejDrydh7wo",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "EejDrydh7wo"
+        },
+        {
           "id": 170,
           "description": "Михалкова из Уральских Пельменей - Гюгошка",
           "url": "https://www.youtube.com/watch?v=TaNSfna8RJ4",
@@ -3830,14 +3838,6 @@ window.TYPE_EXAMPLES = {
           "platform": "youtube",
           "youtube_kind": "video",
           "youtube_id": "DXkwWoQq3vU"
-        },
-        {
-          "id": 177,
-          "description": "Анастасия Заворотнюк, Штирка",
-          "url": "https://www.youtube.com/watch?v=EejDrydh7wo",
-          "platform": "youtube",
-          "youtube_kind": "video",
-          "youtube_id": "EejDrydh7wo"
         },
         {
           "id": 165,
