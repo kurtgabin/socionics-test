@@ -197,6 +197,14 @@ window.TYPE_EXAMPLES = {
       "name": "Дюма",
       "examples": [
         {
+          "id": 688,
+          "description": "Джастин Трюдо, премьер Канады, Дюма",
+          "url": "https://www.youtube.com/watch?v=IFtsa9r_WUE",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "IFtsa9r_WUE"
+        },
+        {
           "id": 660,
           "description": "Дюма, возмущается, что в Египте живут не по Христу!",
           "url": "https://www.youtube.com/watch?v=6THaXP2RNnQ",
@@ -1984,6 +1992,14 @@ window.TYPE_EXAMPLES = {
       "name": "Есенин",
       "examples": [
         {
+          "id": 689,
+          "description": "Медведев, Есенин",
+          "url": "https://www.youtube.com/watch?v=15DHxUVYtpw",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "15DHxUVYtpw"
+        },
+        {
           "id": 686,
           "description": "Степанова, Есенка ЭФВЛ",
           "url": "https://www.youtube.com/watch?v=KjFp3q12VWc",
@@ -3326,6 +3342,14 @@ window.TYPE_EXAMPLES = {
       "abbr": "ЭСИ",
       "name": "Драйзер",
       "examples": [
+        {
+          "id": 690,
+          "description": "Ельцин, Драйзер",
+          "url": "https://www.youtube.com/watch?v=F2PVvcrYXDo",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "F2PVvcrYXDo"
+        },
         {
           "id": 664,
           "description": "Драйка, поясняет положняк",
