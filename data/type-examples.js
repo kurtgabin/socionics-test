@@ -309,14 +309,6 @@ window.TYPE_EXAMPLES = {
           "youtube_id": "1oab1icss7w"
         },
         {
-          "id": 372,
-          "description": "Дюма, не хочет продавать",
-          "url": "https://www.youtube.com/watch?v=PEgdvIg1tBc",
-          "platform": "youtube",
-          "youtube_kind": "video",
-          "youtube_id": "PEgdvIg1tBc"
-        },
-        {
           "id": 349,
           "description": "И еще Дюмашка, доктор",
           "url": "https://www.youtube.com/watch?v=fKvNcM3AtHk",
