@@ -810,6 +810,14 @@ window.TYPE_EXAMPLES = {
       "name": "Робеспьер",
       "examples": [
         {
+          "id": 694,
+          "description": "Денис из Фанимани",
+          "url": "https://www.youtube.com/watch?v=62l6cHzMuUg",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "62l6cHzMuUg"
+        },
+        {
           "id": 617,
           "description": "Робеспьер и Робеспьер, обсуждают долголетие",
           "url": "https://www.youtube.com/watch?v=rIznDBOMkhI",
@@ -938,7 +946,7 @@ window.TYPE_EXAMPLES = {
       "examples": [
         {
           "id": 685,
-          "description": "Зеленский, Гам",
+          "description": "Зеленский, Гамлет",
           "url": "https://www.youtube.com/watch?v=P8OBR9yjgFA",
           "platform": "youtube",
           "youtube_kind": "video",
@@ -4171,6 +4179,22 @@ window.TYPE_EXAMPLES = {
       "abbr": "ИЭЭ",
       "name": "Гексли",
       "examples": [
+        {
+          "id": 692,
+          "description": "Костя из Фанимани",
+          "url": "https://www.youtube.com/watch?v=Ca0iBLK_5Yw",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "Ca0iBLK_5Yw"
+        },
+        {
+          "id": 691,
+          "description": "Макрон, президент Франции, Гек",
+          "url": "https://www.youtube.com/watch?v=luuwW4VD5sA",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "luuwW4VD5sA"
+        },
         {
           "id": 656,
           "description": "Гексли, продает арбуз",
