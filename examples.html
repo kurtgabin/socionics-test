@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Примеры типов — Соционика</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="pages.css">
+</head>
+<body>
+    <nav class="topbar">
+        <div class="topbar-inner">
+            <a class="back-link" href="index.html">← Главная</a>
+            <div class="type-chips" id="typeChips"></div>
+        </div>
+    </nav>
+
+    <main class="examples">
+        <div class="type-header" id="typeHeader">
+            <h1 id="typeTitle"></h1>
+            <div class="meta" id="typeMeta"></div>
+        </div>
+        <div class="grid" id="grid"></div>
+        <div class="status" id="status"></div>
+    </main>
+
+    <script src="data/type-examples.js"></script>
+    <script>
+        const QUADRAS = [
+            ['alpha', ['ile', 'sei', 'ese', 'lii']],
+            ['beta',  ['eie', 'lsi', 'sle', 'iei']],
+            ['gamma', ['see', 'ili', 'lie', 'esi']],
+            ['delta', ['lse', 'eii', 'iee', 'sli']],
+            ['misc',  ['misc']]
+        ];
+        const QUADRA_OF = {};
+        QUADRAS.forEach(([quadra, codes]) => codes.forEach(code => { QUADRA_OF[code] = quadra; }));
+
+        const PLATFORMS = {
+            rutube: 'Rutube', vimeo: 'Vimeo', telegram: 'Telegram', tiktok: 'TikTok',
+            forbes: 'Forbes', snob: 'Сноб', litres: 'ЛитРес', youtube: 'YouTube'
+        };
+
+        let types = {};
+
+        const el = (tag, className, text) => {
+            const node = document.createElement(tag);
+            if (className) node.className = className;
+            if (text != null) node.textContent = text;
+            return node;
+        };
+
+        const label = code => types[code].abbr || types[code].name;
+
+        function plural(n, one, few, many) {
+            const n10 = n % 10, n100 = n % 100;
+            if (n10 === 1 && n100 !== 11) return one;
+            if (n10 >= 2 && n10 <= 4 && (n100 < 12 || n100 > 14)) return few;
+            return many;
+        }
+
+        function formatTime(seconds) {
+            const h = Math.floor(seconds / 3600), m = Math.floor(seconds / 60) % 60, s = seconds % 60;
+            return (h ? h + ':' + String(m).padStart(2, '0') : m) + ':' + String(s).padStart(2, '0');
+        }
+
+        function typeChip(code) {
+            const chip = el('a', 'chip ' + QUADRA_OF[code], label(code));
+            chip.href = '#' + code;
+            chip.title = types[code].name;
+            return chip;
+        }
+
+        function renderChips() {
+            const box = document.getElementById('typeChips');
+            QUADRAS.forEach(([, codes]) => {
+                const group = el('div', 'chip-group');
+                codes.forEach(code => {
+                    const chip = typeChip(code);
+                    chip.dataset.type = code;
+                    group.appendChild(chip);
+                });
+                box.appendChild(group);
+            });
+        }
+
+        function renderCard(ex, current) {
+            const card = el('article', 'example');
+            const thumb = el('a', 'thumb');
+            thumb.href = ex.url;
+            thumb.target = '_blank';
+            thumb.rel = 'noopener';
+
+            if (ex.youtube_id) {
+                thumb.setAttribute('aria-label', 'Смотреть на YouTube: ' + ex.description);
+                const img = el('img');
+                img.src = `https://i.ytimg.com/vi/${ex.youtube_id}/mqdefault.jpg`;
+                img.alt = '';
+                img.loading = 'lazy';
+                thumb.appendChild(img);
+                if (ex.youtube_kind === 'short') thumb.appendChild(el('span', 'badge', 'Shorts'));
+                else if (ex.start_seconds) thumb.appendChild(el('span', 'badge', 'с ' + formatTime(ex.start_seconds)));
+            } else {
+                thumb.classList.add('external');
+                thumb.textContent = (PLATFORMS[ex.platform] || ex.platform) + ' ↗';
+            }
+            card.appendChild(thumb);
+
+            card.appendChild(el('p', 'description', ex.description));
+            const others = (ex.types || []).filter(code => code !== current && types[code]);
+            if (others.length) {
+                const also = el('div', 'also', 'Также:');
+                others.forEach(code => also.appendChild(typeChip(code)));
+                card.appendChild(also);
+            }
+            return card;
+        }
+
+        function showType(code) {
+            const group = types[code];
+            document.querySelectorAll('#typeChips .chip').forEach(chip => {
+                chip.classList.toggle('active', chip.dataset.type === code);
+            });
+
+            const title = document.getElementById('typeTitle');
+            title.replaceChildren();
+            if (group.abbr) {
+                title.appendChild(el('span', 'abbr', group.abbr));
+                title.append(' — ');
+            }
+            title.append(group.name);
+            document.getElementById('typeHeader').className = 'type-header ' + QUADRA_OF[code];
+
+            const n = group.examples.length;
+            document.getElementById('typeMeta').textContent = `${n} ${plural(n, 'пример', 'примера', 'примеров')}`;
+            document.title = (group.abbr ? `${group.abbr} — ${group.name}` : group.name) + ' — примеры типов';
+
+            document.getElementById('grid').replaceChildren(...group.examples.map(ex => renderCard(ex, code)));
+            const status = document.getElementById('status');
+            status.textContent = n ? '' : 'Примеров пока нет.';
+            status.hidden = n > 0;
+        }
+
+        function route() {
+            const code = location.hash.slice(1);
+            if (!types[code]) {
+                history.replaceState(null, '', '#' + Object.keys(types)[0]);
+                return route();
+            }
+            showType(code);
+            window.scrollTo(0, 0);
+        }
+
+        if (window.TYPE_EXAMPLES) {
+            types = TYPE_EXAMPLES.types;
+            renderChips();
+            window.addEventListener('hashchange', route);
+            route();
+        } else {
+            document.getElementById('status').textContent = 'Не удалось загрузить список примеров.';
+        }
+    </script>
+</body>
+</html>

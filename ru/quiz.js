@@ -812,7 +812,7 @@ function updateResultsAndSyncAnswers() {
     });
     currentResults = subset;
     $('#results').html(currentResults.length ? currentResults.map(r =>
-        `<a href="${resultDetails[r].link}" title="${resultDetails[r].name}" style="color:#0d6efd;text-decoration:none;display:block;padding:3px 8px;border-radius:4px" onmouseover="this.style.backgroundColor='rgba(13,110,253,0.1)'" onmouseout="this.style.backgroundColor='transparent'">${r}</a>`
+        `<a href="${resultDetails[r].link}" title="${resultDetails[r].name}" class="result-link">${r}</a>`
     ).join('') : 'No matching types');
 
     let changed = false;
@@ -847,7 +847,7 @@ $(document).ready(function() {
     // Initial render
     renderQuestions();
     $('#results').html(currentResults.map(r =>
-        `<a href="${resultDetails[r].link}" title="${resultDetails[r].name}" style="color:#0d6efd;text-decoration:none;display:block;padding:3px 8px;border-radius:4px" onmouseover="this.style.backgroundColor='rgba(13,110,253,0.1)'" onmouseout="this.style.backgroundColor='transparent'">${r}</a>`
+        `<a href="${resultDetails[r].link}" title="${resultDetails[r].name}" class="result-link">${r}</a>`
     ).join(''));
 
     // Handle answer selection
@@ -995,7 +995,7 @@ $(document).ready(function() {
 
         currentResults = possibleTypes;
         $('#results').html(currentResults.length ? currentResults.map(r =>
-            `<a href="${resultDetails[r].link}" title="${resultDetails[r].name}" style="color:#0d6efd;text-decoration:none;display:block;padding:3px 8px;border-radius:4px" onmouseover="this.style.backgroundColor='rgba(13,110,253,0.1)'" onmouseout="this.style.backgroundColor='transparent'">${r}</a>`
+            `<a href="${resultDetails[r].link}" title="${resultDetails[r].name}" class="result-link">${r}</a>`
         ).join('') : 'No matching types');
         renderQuestions();
     }
@@ -1008,7 +1008,7 @@ $(document).ready(function() {
         dialogOptedOut = false;
         renderQuestions();
         $('#results').html(currentResults.map(r =>
-            `<a href="${resultDetails[r].link}" title="${resultDetails[r].name}" style="color:#0d6efd;text-decoration:none;display:block;padding:3px 8px;border-radius:4px" onmouseover="this.style.backgroundColor='rgba(13,110,253,0.1)'" onmouseout="this.style.backgroundColor='transparent'">${r}</a>`
+            `<a href="${resultDetails[r].link}" title="${resultDetails[r].name}" class="result-link">${r}</a>`
         ).join(''));
     });
 });

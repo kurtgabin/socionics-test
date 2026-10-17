@@ -1,206 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Socionics Test - Language Selection</title>
-
-    <!-- Favicons -->
+    <title>Соционика — тест и примеры типов</title>
+    <meta name="description" content="Тест на определение соционического типа и видеопримеры всех 16 типов.">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-
-    <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-
-    <style>
-        :root {
-            --primary-color: #6366f1;
-            --secondary-color: #8b5cf6;
-            --card-bg: #ffffff;
-            --text-primary: #1e293b;
-            --text-secondary: #64748b;
-            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-            --radius-lg: 1rem;
-            --transition-normal: 250ms ease;
-        }
-
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            margin: 0;
-            padding: 0;
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            background-attachment: fixed;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            color: var(--text-primary);
-        }
-
-        .container {
-            text-align: center;
-            padding: 2rem;
-            max-width: 600px;
-            width: 100%;
-        }
-
-        .card {
-            background: var(--card-bg);
-            padding: 3rem 2.5rem;
-            border-radius: var(--radius-lg);
-            box-shadow: var(--shadow-lg);
-            animation: fadeInUp 0.6s ease;
-        }
-
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .icon-container {
-            width: 80px;
-            height: 80px;
-            margin: 0 auto 1.5rem;
-            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 2.5rem;
-            color: white;
-            box-shadow: 0 8px 16px rgba(99, 102, 241, 0.3);
-        }
-
-        h1 {
-            font-size: 2.5rem;
-            font-weight: 800;
-            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            margin: 0 0 0.5rem 0;
-        }
-
-        .subtitle {
-            color: var(--text-secondary);
-            font-size: 1.125rem;
-            margin: 0 0 2.5rem 0;
-        }
-
-        .lang-buttons {
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
-            margin-top: 2rem;
-        }
-
-        .lang-button {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 0.75rem;
-            padding: 1.25rem 2rem;
-            text-decoration: none;
-            color: white;
-            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-            border-radius: var(--radius-lg);
-            font-size: 1.125rem;
-            font-weight: 600;
-            transition: all var(--transition-normal);
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-            border: none;
-            cursor: pointer;
-        }
-
-        .lang-button:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 10px 20px -5px rgba(99, 102, 241, 0.4);
-        }
-
-        .lang-button:active {
-            transform: translateY(-2px);
-        }
-
-        .lang-button.secondary {
-            background: linear-gradient(135deg, #3b82f6, #2563eb);
-        }
-
-        .lang-button.secondary:hover {
-            box-shadow: 0 10px 20px -5px rgba(59, 130, 246, 0.4);
-        }
-
-        .lang-button i {
-            font-size: 1.5rem;
-        }
-
-        footer {
-            position: fixed;
-            bottom: 1rem;
-            text-align: center;
-            width: 100%;
-            color: rgba(255, 255, 255, 0.8);
-            font-size: 0.875rem;
-        }
-
-        @media (max-width: 576px) {
-            .card {
-                padding: 2rem 1.5rem;
-            }
-
-            h1 {
-                font-size: 2rem;
-            }
-
-            .subtitle {
-                font-size: 1rem;
-            }
-
-            .lang-button {
-                padding: 1rem 1.5rem;
-                font-size: 1rem;
-            }
-
-            .icon-container {
-                width: 64px;
-                height: 64px;
-                font-size: 2rem;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="pages.css">
 </head>
 <body>
-    <div class="container">
-        <div class="card">
-            <div class="icon-container">
-                <i class="bi bi-stars"></i>
-            </div>
-            <h1>Socionics Test</h1>
-            <p class="subtitle">Please choose your language</p>
+    <main class="home">
+        <h1>Соционический уголок <span class="dedication">имени Джованни Джорджио</span></h1>
+        <p class="lead">Тест на определение типа и примеры всех 16 типов</p>
 
-            <div class="lang-buttons">
-                <a href="en/index.html" class="lang-button">
-                    <i class="bi bi-globe"></i>
-                    English
-                </a>
-                <a href="ru/index.html" class="lang-button secondary">
-                    <i class="bi bi-globe-europe-africa"></i>
-                    Русский
-                </a>
+        <div class="test-buttons">
+            <a href="ru/index.html" class="test-button">
+                <span><strong>Пройти тест</strong><small>На русском</small></span>
+                <span class="arrow">→</span>
+            </a>
+            <a href="en/index.html" class="test-button" lang="en">
+                <span><strong>Take the test</strong><small>In English</small></span>
+                <span class="arrow">→</span>
+            </a>
+        </div>
+
+        <h2>Примеры типов</h2>
+        <div class="quadras">
+            <div class="alpha">
+                <div class="quadra-title">Альфа</div>
+                <a class="type-link" href="examples.html#ile"><span class="abbr">ИЛЭ</span><span class="name">Дон Кихот</span><span class="count" data-type="ile"></span></a>
+                <a class="type-link" href="examples.html#sei"><span class="abbr">СЭИ</span><span class="name">Дюма</span><span class="count" data-type="sei"></span></a>
+                <a class="type-link" href="examples.html#ese"><span class="abbr">ЭСЭ</span><span class="name">Гюго</span><span class="count" data-type="ese"></span></a>
+                <a class="type-link" href="examples.html#lii"><span class="abbr">ЛИИ</span><span class="name">Робеспьер</span><span class="count" data-type="lii"></span></a>
+            </div>
+            <div class="beta">
+                <div class="quadra-title">Бета</div>
+                <a class="type-link" href="examples.html#eie"><span class="abbr">ЭИЭ</span><span class="name">Гамлет</span><span class="count" data-type="eie"></span></a>
+                <a class="type-link" href="examples.html#lsi"><span class="abbr">ЛСИ</span><span class="name">Максим Горький</span><span class="count" data-type="lsi"></span></a>
+                <a class="type-link" href="examples.html#sle"><span class="abbr">СЛЭ</span><span class="name">Жуков</span><span class="count" data-type="sle"></span></a>
+                <a class="type-link" href="examples.html#iei"><span class="abbr">ИЭИ</span><span class="name">Есенин</span><span class="count" data-type="iei"></span></a>
+            </div>
+            <div class="gamma">
+                <div class="quadra-title">Гамма</div>
+                <a class="type-link" href="examples.html#see"><span class="abbr">СЭЭ</span><span class="name">Наполеон</span><span class="count" data-type="see"></span></a>
+                <a class="type-link" href="examples.html#ili"><span class="abbr">ИЛИ</span><span class="name">Бальзак</span><span class="count" data-type="ili"></span></a>
+                <a class="type-link" href="examples.html#lie"><span class="abbr">ЛИЭ</span><span class="name">Джек Лондон</span><span class="count" data-type="lie"></span></a>
+                <a class="type-link" href="examples.html#esi"><span class="abbr">ЭСИ</span><span class="name">Драйзер</span><span class="count" data-type="esi"></span></a>
+            </div>
+            <div class="delta">
+                <div class="quadra-title">Дельта</div>
+                <a class="type-link" href="examples.html#lse"><span class="abbr">ЛСЭ</span><span class="name">Штирлиц</span><span class="count" data-type="lse"></span></a>
+                <a class="type-link" href="examples.html#eii"><span class="abbr">ЭИИ</span><span class="name">Достоевский</span><span class="count" data-type="eii"></span></a>
+                <a class="type-link" href="examples.html#iee"><span class="abbr">ИЭЭ</span><span class="name">Гексли</span><span class="count" data-type="iee"></span></a>
+                <a class="type-link" href="examples.html#sli"><span class="abbr">СЛИ</span><span class="name">Габен</span><span class="count" data-type="sli"></span></a>
             </div>
         </div>
-    </div>
+        <div class="misc-row misc">
+            <a class="type-link" href="examples.html#misc"><span class="name">Разное</span><span class="count" data-type="misc"></span></a>
+        </div>
+    </main>
 
-    <footer>
-        Author: Kurt Gabin
-    </footer>
+    <footer>Автор: Курт Габен</footer>
+
+    <script src="data/type-examples.js"></script>
+    <script>
+        // Counts are optional: without the data file the links just have no numbers.
+        if (window.TYPE_EXAMPLES) {
+            document.querySelectorAll('.count[data-type]').forEach(el => {
+                const group = TYPE_EXAMPLES.types[el.dataset.type];
+                if (group) el.textContent = group.examples.length;
+            });
+        }
+    </script>
 </body>
 </html>

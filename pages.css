@@ -1,0 +1,480 @@
+/* Shared styles of the home page (index.html) and the examples page (examples.html). */
+:root {
+    color-scheme: dark;
+
+    --bg: #0c0c0d;
+    --surface: #18181b;
+    --text: #f4f4f5;
+    --text-muted: #a1a1aa;
+    --border: #2e2e33;
+    --hover: #26262b;
+    --placeholder: #232327;
+    --radius: 10px;
+
+    --alpha: #4ade80;
+    --beta: #f87171;
+    --gamma: #fbbf24;
+    --delta: #60a5fa;
+    --misc: #d4d4d8;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a {
+    color: inherit;
+}
+
+.alpha { --quadra: var(--alpha); }
+.beta  { --quadra: var(--beta); }
+.gamma { --quadra: var(--gamma); }
+.delta { --quadra: var(--delta); }
+.misc  { --quadra: var(--misc); }
+
+footer {
+    text-align: center;
+    padding: 2.5rem 1rem;
+    color: var(--text-muted);
+    font-size: 0.875rem;
+}
+
+/* ---------- Home page ---------- */
+
+.home {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 4rem 1rem 0;
+}
+
+.home h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.home h1 .dedication {
+    display: block;
+    margin-top: 0.25rem;
+    font-size: 1.125rem;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--text-muted);
+}
+
+.home .lead {
+    color: var(--text-muted);
+    margin: 1rem 0 2rem;
+}
+
+.home h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 3rem 0 1rem;
+}
+
+.test-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+}
+
+.test-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem 1.25rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    text-decoration: none;
+}
+
+.test-button:hover {
+    border-color: var(--text);
+}
+
+.test-button strong {
+    display: block;
+    font-size: 1.125rem;
+}
+
+.test-button small {
+    color: var(--text-muted);
+    font-size: 0.875rem;
+}
+
+.test-button .arrow {
+    font-size: 1.25rem;
+    color: var(--text-muted);
+}
+
+.quadras {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem 1rem;
+}
+
+.quadra-title {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--quadra);
+    margin-bottom: 0.25rem;
+}
+
+.type-link {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    padding: 0.5rem 0.5rem;
+    margin: 0 -0.5rem;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.type-link:hover {
+    background: var(--hover);
+}
+
+.type-link .abbr {
+    font-weight: 700;
+    color: var(--quadra);
+    min-width: 2.5rem;
+}
+
+.type-link .name {
+    flex: 1;
+}
+
+.type-link .count {
+    color: var(--text-muted);
+    font-size: 0.8125rem;
+    font-variant-numeric: tabular-nums;
+}
+
+.misc-row {
+    margin-top: 1rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--border);
+    display: flex;
+}
+
+/* ---------- Examples page ---------- */
+
+.topbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+}
+
+.topbar-inner {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0.625rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.back-link {
+    text-decoration: none;
+    color: var(--text-muted);
+    white-space: nowrap;
+}
+
+.back-link:hover {
+    color: var(--text);
+}
+
+.type-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 1rem;
+}
+
+.chip-group {
+    display: flex;
+    gap: 0.125rem;
+}
+
+.chip {
+    padding: 0.25rem 0.5rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9375rem;
+    color: var(--quadra);
+    white-space: nowrap;
+}
+
+.chip:hover {
+    background: var(--hover);
+}
+
+.chip.active {
+    background: var(--quadra);
+    color: var(--bg);
+}
+
+.examples {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 1rem 2.5rem;
+}
+
+.type-header {
+    margin: 2rem 0 1.25rem;
+}
+
+.type-header h1 {
+    margin: 0;
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.type-header h1 .abbr {
+    color: var(--quadra);
+}
+
+.type-header .meta {
+    color: var(--text-muted);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1.25rem 1rem;
+}
+
+.example {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.thumb {
+    position: relative;
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    background: var(--placeholder);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.thumb:hover img {
+    opacity: 0.9;
+}
+
+.badge {
+    position: absolute;
+    bottom: 0.375rem;
+    right: 0.375rem;
+    padding: 0 0.375rem;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    font-size: 0.75rem;
+    line-height: 1.5;
+}
+
+.thumb.external {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-muted);
+    font-weight: 600;
+    font-size: 0.9375rem;
+}
+
+.description {
+    margin: 0;
+    line-height: 1.4;
+}
+
+.also {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.25rem;
+    color: var(--text-muted);
+    font-size: 0.8125rem;
+}
+
+.also .chip {
+    padding: 0 0.25rem;
+    font-size: 0.8125rem;
+}
+
+.status {
+    color: var(--text-muted);
+    padding: 3rem 0;
+    text-align: center;
+}
+
+/* ---------- Type descriptions (ru/types, en/types) ---------- */
+
+.type-page .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 4rem 1rem;
+}
+
+.type-page h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.25;
+    margin: 0 0 1.5rem;
+}
+
+.type-page .description {
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: #d4d4d8;
+}
+
+.type-page .description p {
+    margin: 0 0 1em;
+}
+
+/* ---------- Phones ---------- */
+
+@media (max-width: 640px) {
+    .home {
+        padding-top: 2rem;
+    }
+
+    .home h1 {
+        font-size: 1.75rem;
+    }
+
+    .home .lead {
+        margin-bottom: 1.5rem;
+    }
+
+    .home h2 {
+        margin-top: 2.25rem;
+    }
+
+    .test-buttons {
+        grid-template-columns: 1fr;
+    }
+
+    .quadras {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.25rem 1.5rem;
+    }
+
+    .type-link {
+        padding: 0.4375rem 0.5rem;
+    }
+
+    .type-link .abbr {
+        min-width: 2.25rem;
+    }
+
+    .type-link .count {
+        display: none;
+    }
+
+    /* The type switcher scrolls away instead of covering a third of the screen. */
+    .topbar {
+        position: static;
+    }
+
+    .topbar-inner {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.5rem;
+    }
+
+    .type-chips {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0.25rem;
+    }
+
+    .chip-group {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .chip {
+        text-align: center;
+        padding: 0.375rem 0;
+    }
+
+    .type-header {
+        margin: 1.25rem 0 1rem;
+    }
+
+    .type-header h1 {
+        font-size: 1.375rem;
+    }
+
+    /* One example per row: small thumbnail on the left, text on the right. */
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 0.875rem;
+    }
+
+    .example {
+        display: grid;
+        grid-template-columns: 9.5rem 1fr;
+        grid-template-rows: auto 1fr;
+        column-gap: 0.75rem;
+        row-gap: 0.25rem;
+    }
+
+    .thumb {
+        grid-row: 1 / span 2;
+        border-radius: 6px;
+    }
+
+    .description {
+        font-size: 0.9375rem;
+    }
+
+    .also {
+        align-self: start;
+    }
+
+    .type-page .container {
+        padding: 2rem 1rem;
+    }
+
+    .type-page h1 {
+        font-size: 1.5rem;
+    }
+
+    .type-page .description {
+        font-size: 1rem;
+    }
+}
