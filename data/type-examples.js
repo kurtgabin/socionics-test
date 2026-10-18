@@ -4121,7 +4121,7 @@ window.TYPE_EXAMPLES = {
         },
         {
           "id": 742,
-          "description": "Достоевская, про настоящих ежей",
+          "description": "Достоевская, про настоящих ежей (остерегайтесь ложных)",
           "url": "https://www.youtube.com/watch?v=nXmlC931q90",
           "platform": "youtube",
           "youtube_kind": "video",
