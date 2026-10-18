@@ -5,6 +5,14 @@ window.TYPE_EXAMPLES = {
       "name": "Дон Кихот",
       "examples": [
         {
+          "id": 744,
+          "description": "Дон, про права родителей",
+          "url": "https://www.youtube.com/watch?v=SK9OWcOUbgs",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "SK9OWcOUbgs"
+        },
+        {
           "id": 639,
           "description": "Fleur, Донка 3Э",
           "url": "https://www.youtube.com/watch?v=zY8Wo2JzWvo",
@@ -196,6 +204,15 @@ window.TYPE_EXAMPLES = {
       "abbr": "СЭИ",
       "name": "Дюма",
       "examples": [
+        {
+          "id": 756,
+          "types": ["sei", "sle"],
+          "description": "Жуков и Дюма, чиллят, путешествуют",
+          "url": "https://www.youtube.com/watch?v=NYMn4Pa6EP0",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "NYMn4Pa6EP0"
+        },
         {
           "id": 688,
           "description": "Джастин Трюдо, премьер Канады, Дюма",
@@ -613,28 +630,12 @@ window.TYPE_EXAMPLES = {
           "youtube_id": "Xy6Fj6NLlAM"
         },
         {
-          "id": 517,
-          "description": "Гюго, исследует новый биом",
-          "url": "https://www.youtube.com/watch?v=IYYMwfNX5Co",
-          "platform": "youtube",
-          "youtube_kind": "video",
-          "youtube_id": "IYYMwfNX5Co"
-        },
-        {
           "id": 514,
           "description": "Гоша Куценко, Гюго",
           "url": "https://www.youtube.com/watch?v=7co1NGhKOKg",
           "platform": "youtube",
           "youtube_kind": "video",
           "youtube_id": "7co1NGhKOKg"
-        },
-        {
-          "id": 479,
-          "description": "Сэм Альтман, Гюг",
-          "url": "https://www.youtube.com/watch?v=5KmpT-BoVf4",
-          "platform": "youtube",
-          "youtube_kind": "video",
-          "youtube_id": "5KmpT-BoVf4"
         },
         {
           "id": 427,
@@ -810,6 +811,14 @@ window.TYPE_EXAMPLES = {
       "name": "Робеспьер",
       "examples": [
         {
+          "id": 748,
+          "description": "Робеспьер, об угрозах, которые мы не замечаем",
+          "url": "https://www.youtube.com/watch?v=CFLZUBAVtxM",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "CFLZUBAVtxM"
+        },
+        {
           "id": 694,
           "description": "Денис из Фанимани",
           "url": "https://www.youtube.com/watch?v=62l6cHzMuUg",
@@ -944,6 +953,14 @@ window.TYPE_EXAMPLES = {
       "abbr": "ЭИЭ",
       "name": "Гамлет",
       "examples": [
+        {
+          "id": 755,
+          "description": "Гамлет: после 50 все только начинается",
+          "url": "https://www.youtube.com/watch?v=6eS9qvXHOrI",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "6eS9qvXHOrI"
+        },
         {
           "id": 685,
           "description": "Зеленский, Гамлет",
@@ -1353,6 +1370,54 @@ window.TYPE_EXAMPLES = {
       "name": "Максим Горький",
       "examples": [
         {
+          "id": 758,
+          "description": "Максимка, путешественница",
+          "url": "https://www.youtube.com/watch?v=s31rKhsxviw",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "s31rKhsxviw"
+        },
+        {
+          "id": 757,
+          "description": "Буля, вовсе не тупой и опасный пес",
+          "url": "https://www.youtube.com/watch?v=gbqfxidBRCU",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "gbqfxidBRCU"
+        },
+        {
+          "id": 737,
+          "description": "Максимка, философ",
+          "url": "https://www.youtube.com/watch?v=7ZUcm4Qvv6I",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "7ZUcm4Qvv6I"
+        },
+        {
+          "id": 736,
+          "description": "Максим: без бога мы никто",
+          "url": "https://www.youtube.com/watch?v=9ALGjkKG8NE",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "9ALGjkKG8NE"
+        },
+        {
+          "id": 732,
+          "description": "Максим, рассказывает про виктимологию",
+          "url": "https://www.youtube.com/watch?v=N_XOG81Bn_0",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "N_XOG81Bn_0"
+        },
+        {
+          "id": 727,
+          "description": "Юта, Максимка",
+          "url": "https://www.youtube.com/watch?v=7Z8eMf1IkxQ",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "7Z8eMf1IkxQ"
+        },
+        {
           "id": 680,
           "description": "Максимка, отзывается на мяу",
           "url": "https://www.youtube.com/watch?v=v3n6K-zizKA",
@@ -1706,8 +1771,17 @@ window.TYPE_EXAMPLES = {
       "name": "Жуков",
       "examples": [
         {
+          "id": 756,
+          "types": ["sei", "sle"],
+          "description": "Жуков и Дюма, чиллят, путешествуют",
+          "url": "https://www.youtube.com/watch?v=NYMn4Pa6EP0",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "NYMn4Pa6EP0"
+        },
+        {
           "id": 681,
-          "description": "Жуков, печатник, офсетник",
+          "description": "Жуков, печатник, офсетчик",
           "url": "https://www.youtube.com/watch?v=ROTWefWgEMQ",
           "platform": "youtube",
           "youtube_kind": "video",
@@ -1999,6 +2073,30 @@ window.TYPE_EXAMPLES = {
       "abbr": "ИЭИ",
       "name": "Есенин",
       "examples": [
+        {
+          "id": 747,
+          "description": "Есенин, хиккует",
+          "url": "https://www.youtube.com/watch?v=WGrkrohKY_s",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "WGrkrohKY_s"
+        },
+        {
+          "id": 731,
+          "description": "Валерия Гай Германика, Еська",
+          "url": "https://www.youtube.com/watch?v=60PnOAv-DiQ",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "60PnOAv-DiQ"
+        },
+        {
+          "id": 709,
+          "description": "Есенка 1Ф, когда разрешили не подстраиваться",
+          "url": "https://www.youtube.com/watch?v=V2xtyA7muJU",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "V2xtyA7muJU"
+        },
         {
           "id": 689,
           "description": "Медведев, Есенин",
@@ -2302,6 +2400,38 @@ window.TYPE_EXAMPLES = {
       "abbr": "СЭЭ",
       "name": "Наполеон",
       "examples": [
+        {
+          "id": 743,
+          "description": "Наполеон, про себя любимого",
+          "url": "https://www.youtube.com/watch?v=dFL8MIYVCBs",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "dFL8MIYVCBs"
+        },
+        {
+          "id": 738,
+          "description": "Нап, недоволен Канадой",
+          "url": "https://www.youtube.com/watch?v=nc86lbdvGDM",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "nc86lbdvGDM"
+        },
+        {
+          "id": 735,
+          "description": "Нап, инвестор в лохчейн",
+          "url": "https://www.youtube.com/watch?v=qI2eACIrYsg",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "qI2eACIrYsg"
+        },
+        {
+          "id": 712,
+          "description": "Наполеон 3Э, знаменитый писатель",
+          "url": "https://www.youtube.com/watch?v=tEEyCc--7jw",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "tEEyCc--7jw"
+        },
         {
           "id": 682,
           "description": "Жириновский, Нап ЭЛФВ",
@@ -3351,6 +3481,62 @@ window.TYPE_EXAMPLES = {
       "name": "Драйзер",
       "examples": [
         {
+          "id": 753,
+          "description": "Драйка, про работу на складе",
+          "url": "https://www.youtube.com/watch?v=1KRKLJ63aLY",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "1KRKLJ63aLY"
+        },
+        {
+          "id": 750,
+          "description": "Драйзер, про тщеславие",
+          "url": "https://www.youtube.com/watch?v=IuKjdB_89A0",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "IuKjdB_89A0"
+        },
+        {
+          "id": 746,
+          "description": "Драйзер, про бесов среди нас",
+          "url": "https://www.youtube.com/watch?v=lONG9on_qZg",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "lONG9on_qZg"
+        },
+        {
+          "id": 745,
+          "description": "Драйзер, про тыпых начальников",
+          "url": "https://www.youtube.com/watch?v=VqIbia23p7c",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "VqIbia23p7c"
+        },
+        {
+          "id": 740,
+          "description": "Драй, про работу инженером",
+          "url": "https://www.youtube.com/watch?v=4lodbFpCKbE",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "4lodbFpCKbE"
+        },
+        {
+          "id": 734,
+          "description": "Драйзер, про вахту и быдло",
+          "url": "https://www.youtube.com/watch?v=0SekRnOPvWs",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "0SekRnOPvWs"
+        },
+        {
+          "id": 730,
+          "description": "Драйзер, о том, как пришел к богу",
+          "url": "https://www.youtube.com/watch?v=wvD1Ctsqx1w",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "wvD1Ctsqx1w"
+        },
+        {
           "id": 690,
           "description": "Ельцин, Драйзер",
           "url": "https://www.youtube.com/watch?v=F2PVvcrYXDo",
@@ -3710,6 +3896,14 @@ window.TYPE_EXAMPLES = {
       "name": "Штирлиц",
       "examples": [
         {
+          "id": 751,
+          "description": "Штирлиц обыкновенный",
+          "url": "https://www.youtube.com/watch?v=T2iyTo1RJ3I",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "T2iyTo1RJ3I"
+        },
+        {
           "id": 655,
           "description": "Штир и Штир, проверяют премиум опции",
           "url": "https://www.youtube.com/watch?v=aUAeVTaqa9Q",
@@ -3917,6 +4111,22 @@ window.TYPE_EXAMPLES = {
       "abbr": "ЭИИ",
       "name": "Достоевский",
       "examples": [
+        {
+          "id": 754,
+          "description": "Достоевский, приобрел шмелей, счастлив",
+          "url": "https://www.youtube.com/shorts/429fhIEwsXc",
+          "platform": "youtube",
+          "youtube_kind": "short",
+          "youtube_id": "429fhIEwsXc"
+        },
+        {
+          "id": 742,
+          "description": "Достоевская, про настоящих ежей",
+          "url": "https://www.youtube.com/watch?v=nXmlC931q90",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "nXmlC931q90"
+        },
         {
           "id": 678,
           "description": "Достоевская 2Э выясняет отношения",
@@ -4179,6 +4389,30 @@ window.TYPE_EXAMPLES = {
       "abbr": "ИЭЭ",
       "name": "Гексли",
       "examples": [
+        {
+          "id": 733,
+          "description": "Еприкян, Гечка",
+          "url": "https://www.youtube.com/watch?v=gZw6ScfD4oA",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "gZw6ScfD4oA"
+        },
+        {
+          "id": 729,
+          "description": "Инна Чурикова, Гечка",
+          "url": "https://www.youtube.com/watch?v=Jva0PBPN_Lo",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "Jva0PBPN_Lo"
+        },
+        {
+          "id": 728,
+          "description": "Довлатов, Гек",
+          "url": "https://www.youtube.com/watch?v=OdlxpLDo9kI",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "OdlxpLDo9kI"
+        },
         {
           "id": 692,
           "description": "Костя из Фанимани",
