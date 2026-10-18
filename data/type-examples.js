@@ -3506,7 +3506,7 @@ window.TYPE_EXAMPLES = {
         },
         {
           "id": 745,
-          "description": "Драйзер, про тыпых начальников",
+          "description": "Драйзер, про тупых начальников",
           "url": "https://www.youtube.com/watch?v=VqIbia23p7c",
           "platform": "youtube",
           "youtube_kind": "video",
