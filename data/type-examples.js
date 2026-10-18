@@ -175,6 +175,14 @@ window.TYPE_EXAMPLES = {
           "youtube_id": "bHT6sEGpfkE"
         },
         {
+          "id": 140,
+          "description": "Пелевин - веселый иррационал",
+          "url": "https://www.youtube.com/watch?v=hD_Ed78lYfk",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "hD_Ed78lYfk"
+        },
+        {
           "id": 76,
           "description": "Александр Панчин",
           "url": "https://www.youtube.com/watch?v=y-wisExHQuo",
@@ -2042,22 +2050,6 @@ window.TYPE_EXAMPLES = {
           "platform": "youtube",
           "youtube_kind": "video",
           "youtube_id": "Kslba7_hsKY"
-        },
-        {
-          "id": 140,
-          "description": "Пелевин - Жук",
-          "url": "https://www.youtube.com/watch?v=hD_Ed78lYfk",
-          "platform": "youtube",
-          "youtube_kind": "video",
-          "youtube_id": "hD_Ed78lYfk"
-        },
-        {
-          "id": 132,
-          "description": "Пелевин — Жук",
-          "url": "https://www.youtube.com/watch?v=-Ol94fVrP9c",
-          "platform": "youtube",
-          "youtube_kind": "video",
-          "youtube_id": "-Ol94fVrP9c"
         },
         {
           "id": 33,
