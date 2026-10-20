@@ -5,6 +5,14 @@ window.TYPE_EXAMPLES = {
       "name": "Дон Кихот",
       "examples": [
         {
+          "id": 766,
+          "description": "Ева Морозова, Донка",
+          "url": "https://www.youtube.com/watch?v=p1APTrNy03Y",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "p1APTrNy03Y"
+        },
+        {
           "id": 744,
           "description": "Дон, про права родителей",
           "url": "https://www.youtube.com/watch?v=SK9OWcOUbgs",
@@ -2242,14 +2250,6 @@ window.TYPE_EXAMPLES = {
           "youtube_id": "bNLQ9dv26Xc"
         },
         {
-          "id": 417,
-          "description": "Есенин, рассказывает как спорить с логиками-сенсориками",
-          "url": "https://www.youtube.com/watch?v=VPqqZxWZ1jk",
-          "platform": "youtube",
-          "youtube_kind": "video",
-          "youtube_id": "VPqqZxWZ1jk"
-        },
-        {
           "id": 371,
           "types": ["eie", "iei"],
           "description": "Любой бетанский этик (со слов Донки)",
@@ -2656,6 +2656,14 @@ window.TYPE_EXAMPLES = {
       "abbr": "ИЛИ",
       "name": "Бальзак",
       "examples": [
+        {
+          "id": 763,
+          "description": "Валуев, Баль",
+          "url": "https://www.youtube.com/watch?v=BYEWqK5zg64",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "BYEWqK5zg64"
+        },
         {
           "id": 648,
           "description": "Баль, ест на халяву",
@@ -3403,7 +3411,7 @@ window.TYPE_EXAMPLES = {
         },
         {
           "id": 118,
-          "description": "Павел Дуров",
+          "description": "Павел Дуров, Джек",
           "url": "https://www.youtube.com/watch?v=dtBA4ZJrAvQ",
           "platform": "youtube",
           "youtube_kind": "video",
@@ -3427,7 +3435,7 @@ window.TYPE_EXAMPLES = {
         },
         {
           "id": 75,
-          "description": "Джек здорового человека",
+          "description": "Тимофей Мартынов, Джек",
           "url": "https://www.youtube.com/watch?v=M__79L1iukE",
           "platform": "youtube",
           "youtube_kind": "video",
@@ -3472,6 +3480,30 @@ window.TYPE_EXAMPLES = {
       "abbr": "ЭСИ",
       "name": "Драйзер",
       "examples": [
+        {
+          "id": 765,
+          "description": "Драй, стендапер",
+          "url": "https://www.youtube.com/watch?v=SMnYGlu8NV8",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "SMnYGlu8NV8"
+        },
+        {
+          "id": 762,
+          "description": "Драйка, выживает",
+          "url": "https://www.youtube.com/watch?v=jObRmfe7Gx4",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "jObRmfe7Gx4"
+        },
+        {
+          "id": 761,
+          "description": "Драйзер, просвещает",
+          "url": "https://www.youtube.com/watch?v=UdMz-kOw-8A",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "UdMz-kOw-8A"
+        },
         {
           "id": 753,
           "description": "Драйка, про работу на складе",
