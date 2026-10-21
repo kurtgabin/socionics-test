@@ -970,6 +970,14 @@ window.TYPE_EXAMPLES = {
       "name": "Гамлет",
       "examples": [
         {
+          "id": 778,
+          "description": "Задорнов, Гамлет",
+          "url": "https://www.youtube.com/watch?v=t1mb_CJVl8A",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "t1mb_CJVl8A"
+        },
+        {
           "id": 755,
           "description": "Гамлет: после 50 все только начинается",
           "url": "https://www.youtube.com/watch?v=6eS9qvXHOrI",
@@ -1787,6 +1795,22 @@ window.TYPE_EXAMPLES = {
       "name": "Жуков",
       "examples": [
         {
+          "id": 775,
+          "description": "Орбан, президент Венгрии, Жук",
+          "url": "https://www.youtube.com/watch?v=tHWObBGEDnQ",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "tHWObBGEDnQ"
+        },
+        {
+          "id": 769,
+          "description": "Георгий Делиев из Маски Шоу, Жук",
+          "url": "https://www.youtube.com/watch?v=_ROEfoLad1U",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "_ROEfoLad1U"
+        },
+        {
           "id": 756,
           "types": ["sei", "sle"],
           "description": "Жуков и Дюма, чиллят, путешествуют",
@@ -2073,6 +2097,22 @@ window.TYPE_EXAMPLES = {
       "abbr": "ИЭИ",
       "name": "Есенин",
       "examples": [
+        {
+          "id": 771,
+          "description": "Владимир Комаров из Маски Шоу, Есь",
+          "url": "https://www.youtube.com/watch?v=RNjULECVpLU",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "RNjULECVpLU"
+        },
+        {
+          "id": 767,
+          "description": "Эвелина Блёданс из Маски Шоу, Еська",
+          "url": "https://www.youtube.com/watch?v=uAAUwGcOwrg",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "uAAUwGcOwrg"
+        },
         {
           "id": 747,
           "description": "Есенин, хиккует",
@@ -2393,6 +2433,14 @@ window.TYPE_EXAMPLES = {
       "name": "Наполеон",
       "examples": [
         {
+          "id": 779,
+          "description": "Жванецкий, Нап",
+          "url": "https://www.youtube.com/watch?v=jjt7WTyqD7g",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "jjt7WTyqD7g"
+        },
+        {
           "id": 743,
           "description": "Наполеон, про себя любимого",
           "url": "https://www.youtube.com/watch?v=dFL8MIYVCBs",
@@ -2656,6 +2704,30 @@ window.TYPE_EXAMPLES = {
       "abbr": "ИЛИ",
       "name": "Бальзак",
       "examples": [
+        {
+          "id": 773,
+          "description": "Ладимир Семенов, Баль",
+          "url": "https://www.youtube.com/watch?v=x_7_AG7uAUQ",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "x_7_AG7uAUQ"
+        },
+        {
+          "id": 772,
+          "description": "Чичваркин, Баль",
+          "url": "https://www.youtube.com/watch?v=kAfhUJe5a1E",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "kAfhUJe5a1E"
+        },
+        {
+          "id": 770,
+          "description": "Борис Барский из Маски Шоу, Баль",
+          "url": "https://www.youtube.com/watch?v=gLpbNN3knW4",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "gLpbNN3knW4"
+        },
         {
           "id": 763,
           "description": "Валуев, Баль",
@@ -3480,6 +3552,14 @@ window.TYPE_EXAMPLES = {
       "abbr": "ЭСИ",
       "name": "Драйзер",
       "examples": [
+        {
+          "id": 777,
+          "description": "Прогноз от Степана Демуры, Драйзера",
+          "url": "https://www.youtube.com/watch?v=Zlhhczmy18w",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "Zlhhczmy18w"
+        },
         {
           "id": 765,
           "description": "Драй, стендапер",
@@ -4767,6 +4847,30 @@ window.TYPE_EXAMPLES = {
       "abbr": "СЛИ",
       "name": "Габен",
       "examples": [
+        {
+          "id": 780,
+          "description": "Ника Yoll, Габенка",
+          "url": "https://www.youtube.com/watch?v=19UyjJD5tfE",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "19UyjJD5tfE"
+        },
+        {
+          "id": 776,
+          "description": "Лариса Морозова, инвестор",
+          "url": "https://www.youtube.com/watch?v=5Y8lruxeIxY",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "5Y8lruxeIxY"
+        },
+        {
+          "id": 774,
+          "description": "Вучич, президент Сербии, Габен",
+          "url": "https://www.youtube.com/watch?v=JdnE05DRJOU",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "JdnE05DRJOU"
+        },
         {
           "id": 684,
           "description": "Габенка про IQ",
