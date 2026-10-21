@@ -970,6 +970,14 @@ window.TYPE_EXAMPLES = {
       "name": "Гамлет",
       "examples": [
         {
+          "id": 781,
+          "description": "Доренко, Гамлет",
+          "url": "https://www.youtube.com/watch?v=Ufbtj14TdpM",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "Ufbtj14TdpM"
+        },
+        {
           "id": 778,
           "description": "Задорнов, Гамлет",
           "url": "https://www.youtube.com/watch?v=t1mb_CJVl8A",
