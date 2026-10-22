@@ -5,6 +5,22 @@ window.TYPE_EXAMPLES = {
       "name": "Дон Кихот",
       "examples": [
         {
+          "id": 795,
+          "description": "Монеточка, Джечка",
+          "url": "https://www.youtube.com/watch?v=irh24L3Jh5Y",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "irh24L3Jh5Y"
+        },
+        {
+          "id": 788,
+          "description": "Лебедев, Дон",
+          "url": "https://www.youtube.com/watch?v=myr6W6cxxUs",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "myr6W6cxxUs"
+        },
+        {
           "id": 766,
           "description": "Ева Морозова, Донка",
           "url": "https://www.youtube.com/watch?v=p1APTrNy03Y",
@@ -220,6 +236,22 @@ window.TYPE_EXAMPLES = {
       "abbr": "СЭИ",
       "name": "Дюма",
       "examples": [
+        {
+          "id": 786,
+          "description": "Никулин, Дюм",
+          "url": "https://www.youtube.com/watch?v=eR582T5e8bs",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "eR582T5e8bs"
+        },
+        {
+          "id": 783,
+          "description": "Игорь Николаев, Дюма",
+          "url": "https://www.youtube.com/watch?v=nC_yLVOZEuE",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "nC_yLVOZEuE"
+        },
         {
           "id": 756,
           "types": ["sei", "sle"],
@@ -524,16 +556,6 @@ window.TYPE_EXAMPLES = {
           "platform": "youtube",
           "youtube_kind": "video",
           "youtube_id": "7sGUBikqqGE"
-        },
-        {
-          "id": 10,
-          "types": ["sei", "esi"],
-          "description": "Квазитождики Никулин (Дюма) и Познер (Драйзер) не очень понимают друг друга, но все-таки сошлись на том, что Тарковский - уникальный режиссер с выдающейся челюстью",
-          "url": "https://www.youtube.com/watch?v=I8NZQDez7Ng&t=280s",
-          "platform": "youtube",
-          "youtube_kind": "video",
-          "youtube_id": "I8NZQDez7Ng",
-          "start_seconds": 280
         }
       ]
     },
@@ -541,6 +563,23 @@ window.TYPE_EXAMPLES = {
       "abbr": "ЭСЭ",
       "name": "Гюго",
       "examples": [
+        {
+          "id": 791,
+          "description": "Прохор Шаляпин, Гюг",
+          "url": "https://www.youtube.com/watch?v=E1e7SsqO6a0",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "E1e7SsqO6a0"
+        },
+        {
+          "id": 782,
+          "types": ["ese", "iei"],
+          "description": "Петросян, Гюго, и Степаненко, Еська",
+          "url": "https://www.youtube.com/watch?v=HK03iJLysnY",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "HK03iJLysnY"
+        },
         {
           "id": 659,
           "description": "Гюгошка, вангует вангования на 2026 год",
@@ -826,6 +865,22 @@ window.TYPE_EXAMPLES = {
       "abbr": "ЛИИ",
       "name": "Робеспьер",
       "examples": [
+        {
+          "id": 797,
+          "description": "Гуриев, Роб",
+          "url": "https://www.youtube.com/watch?v=Bj7q5VAf8-w",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "Bj7q5VAf8-w"
+        },
+        {
+          "id": 787,
+          "description": "Шевчук, Роб 3Э",
+          "url": "https://www.youtube.com/watch?v=98pE29S5Gb4",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "98pE29S5Gb4"
+        },
         {
           "id": 748,
           "description": "Робеспьер, об угрозах, которые мы не замечаем",
@@ -1402,6 +1457,22 @@ window.TYPE_EXAMPLES = {
       "name": "Максим Горький",
       "examples": [
         {
+          "id": 798,
+          "description": "Ходорковский, Макс",
+          "url": "https://www.youtube.com/watch?v=admcvvTMRtU",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "admcvvTMRtU"
+        },
+        {
+          "id": 785,
+          "description": "Познер, Макс",
+          "url": "https://www.youtube.com/watch?v=wg-TMymYSwE",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "wg-TMymYSwE"
+        },
+        {
           "id": 758,
           "description": "Максимка, путешественница",
           "url": "https://www.youtube.com/watch?v=s31rKhsxviw",
@@ -1803,6 +1874,14 @@ window.TYPE_EXAMPLES = {
       "name": "Жуков",
       "examples": [
         {
+          "id": 794,
+          "description": "Хован, Жук",
+          "url": "https://www.youtube.com/watch?v=NAEnvR7yEvM",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "NAEnvR7yEvM"
+        },
+        {
           "id": 775,
           "description": "Орбан, президент Венгрии, Жук",
           "url": "https://www.youtube.com/watch?v=tHWObBGEDnQ",
@@ -2106,6 +2185,15 @@ window.TYPE_EXAMPLES = {
       "name": "Есенин",
       "examples": [
         {
+          "id": 782,
+          "types": ["ese", "iei"],
+          "description": "Петросян, Гюго, и Степаненко, Еська",
+          "url": "https://www.youtube.com/watch?v=HK03iJLysnY",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "HK03iJLysnY"
+        },
+        {
           "id": 771,
           "description": "Владимир Комаров из Маски Шоу, Есь",
           "url": "https://www.youtube.com/watch?v=RNjULECVpLU",
@@ -2224,14 +2312,6 @@ window.TYPE_EXAMPLES = {
           "platform": "youtube",
           "youtube_kind": "video",
           "youtube_id": "BWLdWuwNqRY"
-        },
-        {
-          "id": 530,
-          "description": "Есенин, про жестокий мир",
-          "url": "https://www.youtube.com/watch?v=bqKaGKDyB0c",
-          "platform": "youtube",
-          "youtube_kind": "video",
-          "youtube_id": "bqKaGKDyB0c"
         },
         {
           "id": 524,
@@ -2440,6 +2520,23 @@ window.TYPE_EXAMPLES = {
       "abbr": "СЭЭ",
       "name": "Наполеон",
       "examples": [
+        {
+          "id": 793,
+          "description": "Алиса Вокс, Напка",
+          "url": "https://www.youtube.com/watch?v=T9m-gVJ4v9k",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "T9m-gVJ4v9k"
+        },
+        {
+          "id": 784,
+          "types": ["see", "ili"],
+          "description": "Наташа Королева, Напка, и Тарзан, Баль",
+          "url": "https://www.youtube.com/watch?v=YyGX7TA9bzk",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "YyGX7TA9bzk"
+        },
         {
           "id": 779,
           "description": "Жванецкий, Нап",
@@ -2712,6 +2809,15 @@ window.TYPE_EXAMPLES = {
       "abbr": "ИЛИ",
       "name": "Бальзак",
       "examples": [
+        {
+          "id": 784,
+          "types": ["see", "ili"],
+          "description": "Наташа Королева, Напка, и Тарзан, Баль",
+          "url": "https://www.youtube.com/watch?v=YyGX7TA9bzk",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "YyGX7TA9bzk"
+        },
         {
           "id": 773,
           "description": "Ладимир Семенов, Баль",
@@ -3090,6 +3196,38 @@ window.TYPE_EXAMPLES = {
       "name": "Джек Лондон",
       "examples": [
         {
+          "id": 799,
+          "description": "Дробышевский, Джек",
+          "url": "https://www.youtube.com/watch?v=dEthxyFsbV8",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "dEthxyFsbV8"
+        },
+        {
+          "id": 792,
+          "description": "Шнуров, Джек",
+          "url": "https://www.youtube.com/watch?v=nuySse6XWig",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "nuySse6XWig"
+        },
+        {
+          "id": 790,
+          "description": "Собчак, Джечка",
+          "url": "https://www.youtube.com/watch?v=JrxSSOx5ESk",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "JrxSSOx5ESk"
+        },
+        {
+          "id": 789,
+          "description": "Тиньков, Джек и Дудь, Джек",
+          "url": "https://www.youtube.com/watch?v=wDkztLMNK9k",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "wDkztLMNK9k"
+        },
+        {
           "id": 652,
           "description": "Джечка, о роли трудотерапии в профилактике разводов",
           "url": "https://www.youtube.com/watch?v=t3sGDvTwvf4",
@@ -3296,14 +3434,6 @@ window.TYPE_EXAMPLES = {
           "platform": "youtube",
           "youtube_kind": "video",
           "youtube_id": "oZIeMtxfNbQ"
-        },
-        {
-          "id": 382,
-          "description": "Илон Маск, Джек 4Э",
-          "url": "https://www.youtube.com/watch?v=EvSlxYFZBJs",
-          "platform": "youtube",
-          "youtube_kind": "video",
-          "youtube_id": "EvSlxYFZBJs"
         },
         {
           "id": 375,
@@ -3560,6 +3690,14 @@ window.TYPE_EXAMPLES = {
       "abbr": "ЭСИ",
       "name": "Драйзер",
       "examples": [
+        {
+          "id": 796,
+          "description": "Гузеева, Драйка",
+          "url": "https://www.youtube.com/watch?v=yQBiVfOkCKg",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "yQBiVfOkCKg"
+        },
         {
           "id": 777,
           "description": "Прогноз от Степана Демуры, Драйзера",
@@ -3990,16 +4128,6 @@ window.TYPE_EXAMPLES = {
           "platform": "youtube",
           "youtube_kind": "video",
           "youtube_id": "hHEadGiI1Z8"
-        },
-        {
-          "id": 10,
-          "types": ["sei", "esi"],
-          "description": "Квазитождики Никулин (Дюма) и Познер (Драйзер) не очень понимают друг друга, но все-таки сошлись на том, что Тарковский - уникальный режиссер с выдающейся челюстью",
-          "url": "https://www.youtube.com/watch?v=I8NZQDez7Ng&t=280s",
-          "platform": "youtube",
-          "youtube_kind": "video",
-          "youtube_id": "I8NZQDez7Ng",
-          "start_seconds": 280
         }
       ]
     },
@@ -4784,14 +4912,6 @@ window.TYPE_EXAMPLES = {
           "youtube_kind": "video",
           "youtube_id": "tYgOr3sQ3ek",
           "start_seconds": 490
-        },
-        {
-          "id": 101,
-          "description": "Гечка, ведет свой блог с балкона",
-          "url": "https://www.youtube.com/watch?v=kEqr9-dNDvM",
-          "platform": "youtube",
-          "youtube_kind": "video",
-          "youtube_id": "kEqr9-dNDvM"
         },
         {
           "id": 99,
