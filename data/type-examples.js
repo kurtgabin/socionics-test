@@ -237,6 +237,14 @@ window.TYPE_EXAMPLES = {
       "name": "Дюма",
       "examples": [
         {
+          "id": 816,
+          "description": "Эмомали Рахмон, лидер нации Таджикистана",
+          "url": "https://www.youtube.com/watch?v=gFtvKik1lhY",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "gFtvKik1lhY"
+        },
+        {
           "id": 786,
           "description": "Никулин, Дюм",
           "url": "https://www.youtube.com/watch?v=eR582T5e8bs",
@@ -563,6 +571,14 @@ window.TYPE_EXAMPLES = {
       "abbr": "ЭСЭ",
       "name": "Гюго",
       "examples": [
+        {
+          "id": 811,
+          "description": "Ираклий Кобахидзе, премьер Грузии, Гюго",
+          "url": "https://www.youtube.com/watch?v=J3MWGlQ2AEI",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "J3MWGlQ2AEI"
+        },
         {
           "id": 791,
           "description": "Прохор Шаляпин, Гюг",
@@ -1024,6 +1040,30 @@ window.TYPE_EXAMPLES = {
       "abbr": "ЭИЭ",
       "name": "Гамлет",
       "examples": [
+        {
+          "id": 817,
+          "description": "Ильхам Алиев, президент Азербайджана, Гамлет",
+          "url": "https://www.youtube.com/watch?v=AnGxLsFa0tg",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "AnGxLsFa0tg"
+        },
+        {
+          "id": 808,
+          "description": "Невзоров, Гамлет",
+          "url": "https://www.youtube.com/watch?v=zcjKJ7FHDLM",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "zcjKJ7FHDLM"
+        },
+        {
+          "id": 807,
+          "description": "Хабенский, Гамлет",
+          "url": "https://www.youtube.com/watch?v=yZIT6ZtsNxI",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "yZIT6ZtsNxI"
+        },
         {
           "id": 781,
           "description": "Доренко, Гамлет",
@@ -4368,6 +4408,14 @@ window.TYPE_EXAMPLES = {
       "name": "Достоевский",
       "examples": [
         {
+          "id": 809,
+          "description": "Никол Пашинян, премьер Армении, Дост",
+          "url": "https://www.youtube.com/watch?v=NufCDBYFz9Q",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "NufCDBYFz9Q"
+        },
+        {
           "id": 754,
           "description": "Достоевский, приобрел шмелей, счастлив",
           "url": "https://www.youtube.com/shorts/429fhIEwsXc",
@@ -5000,6 +5048,14 @@ window.TYPE_EXAMPLES = {
       "name": "Габен",
       "examples": [
         {
+          "id": 813,
+          "description": "Гурбангулы Бердымухамедов, председатель Халк Маслахаты Туркменистана, Габен",
+          "url": "https://www.youtube.com/watch?v=RCA70fB9QnA",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "RCA70fB9QnA"
+        },
+        {
           "id": 780,
           "description": "Ника Yoll, Габенка",
           "url": "https://www.youtube.com/watch?v=19UyjJD5tfE",
@@ -5260,6 +5316,14 @@ window.TYPE_EXAMPLES = {
     "misc": {
       "name": "Разное",
       "examples": [
+        {
+          "id": 806,
+          "description": "Кот 3Э и лошадь 1Э",
+          "url": "https://www.youtube.com/shorts/tSoIuMWyQLQ",
+          "platform": "youtube",
+          "youtube_kind": "short",
+          "youtube_id": "tSoIuMWyQLQ"
+        },
         {
           "id": 543,
           "description": "2Э, хватает 3Э за нос (возмутительно!)",
