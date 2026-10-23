@@ -1457,14 +1457,6 @@ window.TYPE_EXAMPLES = {
       "name": "Максим Горький",
       "examples": [
         {
-          "id": 800,
-          "description": "Максим 1Э",
-          "url": "https://www.youtube.com/watch?v=O5dkZo1S7bE",
-          "platform": "youtube",
-          "youtube_kind": "video",
-          "youtube_id": "O5dkZo1S7bE"
-        },
-        {
           "id": 798,
           "description": "Ходорковский, Макс",
           "url": "https://www.youtube.com/watch?v=admcvvTMRtU",
