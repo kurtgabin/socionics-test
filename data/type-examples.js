@@ -1457,6 +1457,14 @@ window.TYPE_EXAMPLES = {
       "name": "Максим Горький",
       "examples": [
         {
+          "id": 802,
+          "description": "Витек, Максим ФВЭЛ",
+          "url": "https://www.youtube.com/watch?v=QQV9shjz71A",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "QQV9shjz71A"
+        },
+        {
           "id": 798,
           "description": "Ходорковский, Макс",
           "url": "https://www.youtube.com/watch?v=admcvvTMRtU",
@@ -4629,6 +4637,14 @@ window.TYPE_EXAMPLES = {
       "abbr": "ИЭЭ",
       "name": "Гексли",
       "examples": [
+        {
+          "id": 804,
+          "description": "Куплинов, Гексли ЭФЛВ",
+          "url": "https://www.youtube.com/watch?v=Dr4LYWVrPDo",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "Dr4LYWVrPDo"
+        },
         {
           "id": 733,
           "description": "Еприкян, Гечка",
