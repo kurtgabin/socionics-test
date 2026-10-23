@@ -2569,6 +2569,14 @@ window.TYPE_EXAMPLES = {
       "name": "Наполеон",
       "examples": [
         {
+          "id": 818,
+          "description": "Сергей Галицкий, основатель сети магазинов Магнит, Нап",
+          "url": "https://www.youtube.com/watch?v=FnHUG6e434k",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "FnHUG6e434k"
+        },
+        {
           "id": 793,
           "description": "Алиса Вокс, Напка",
           "url": "https://www.youtube.com/watch?v=T9m-gVJ4v9k",
@@ -2857,6 +2865,14 @@ window.TYPE_EXAMPLES = {
       "abbr": "ИЛИ",
       "name": "Бальзак",
       "examples": [
+        {
+          "id": 820,
+          "description": "Набиулина, Балька",
+          "url": "https://www.youtube.com/watch?v=rFUI3-3ELWA",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "rFUI3-3ELWA"
+        },
         {
           "id": 784,
           "types": ["see", "ili"],
@@ -3746,6 +3762,14 @@ window.TYPE_EXAMPLES = {
       "abbr": "ЭСИ",
       "name": "Драйзер",
       "examples": [
+        {
+          "id": 819,
+          "description": "Греф, Драйзер 3Э",
+          "url": "https://www.youtube.com/watch?v=4Chsponr53E",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "4Chsponr53E"
+        },
         {
           "id": 796,
           "description": "Гузеева, Драйка",
