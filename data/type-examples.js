@@ -3204,6 +3204,14 @@ window.TYPE_EXAMPLES = {
       "name": "Джек Лондон",
       "examples": [
         {
+          "id": 805,
+          "description": "Лололошка, Джек ЭЛФВ",
+          "url": "https://www.youtube.com/watch?v=VPOFWzd81OE",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "VPOFWzd81OE"
+        },
+        {
           "id": 799,
           "description": "Дробышевский, Джек",
           "url": "https://www.youtube.com/watch?v=dEthxyFsbV8",
