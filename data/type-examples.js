@@ -5,6 +5,14 @@ window.TYPE_EXAMPLES = {
       "name": "Дон Кихот",
       "examples": [
         {
+          "id": 821,
+          "description": "Мария Маркова, Донка",
+          "url": "https://www.youtube.com/watch?v=_SYvysEDU_E",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "_SYvysEDU_E"
+        },
+        {
           "id": 795,
           "description": "Монеточка, Джечка",
           "url": "https://www.youtube.com/watch?v=irh24L3Jh5Y",
@@ -881,6 +889,14 @@ window.TYPE_EXAMPLES = {
       "abbr": "ЛИИ",
       "name": "Робеспьер",
       "examples": [
+        {
+          "id": 823,
+          "description": "Солженицын, Робеспьер",
+          "url": "https://www.youtube.com/watch?v=nURYAgWqYmk",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "nURYAgWqYmk"
+        },
         {
           "id": 797,
           "description": "Гуриев, Роб",
@@ -4216,6 +4232,15 @@ window.TYPE_EXAMPLES = {
       "name": "Штирлиц",
       "examples": [
         {
+          "id": 822,
+          "types": ["lse", "iee"],
+          "description": "Андрейсаныч Бахметьев, Штир, и Тимур Кизяков, Гек",
+          "url": "https://www.youtube.com/watch?v=1wr_JDsuGe4",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "1wr_JDsuGe4"
+        },
+        {
           "id": 751,
           "description": "Штирлиц обыкновенный",
           "url": "https://www.youtube.com/watch?v=T2iyTo1RJ3I",
@@ -4717,6 +4742,15 @@ window.TYPE_EXAMPLES = {
       "abbr": "ИЭЭ",
       "name": "Гексли",
       "examples": [
+        {
+          "id": 822,
+          "types": ["lse", "iee"],
+          "description": "Андрейсаныч Бахметьев, Штир, и Тимур Кизяков, Гек",
+          "url": "https://www.youtube.com/watch?v=1wr_JDsuGe4",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "1wr_JDsuGe4"
+        },
         {
           "id": 804,
           "description": "Куплинов, Гексли ЭФЛВ",
