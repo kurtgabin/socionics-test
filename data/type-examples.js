@@ -4457,6 +4457,14 @@ window.TYPE_EXAMPLES = {
       "name": "Достоевский",
       "examples": [
         {
+          "id": 824,
+          "description": "Войнович, Дост",
+          "url": "https://www.youtube.com/watch?v=6jngNmWl9J8",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "6jngNmWl9J8"
+        },
+        {
           "id": 809,
           "description": "Никол Пашинян, премьер Армении, Дост",
           "url": "https://www.youtube.com/watch?v=NufCDBYFz9Q",
