@@ -1057,6 +1057,14 @@ window.TYPE_EXAMPLES = {
       "name": "Гамлет",
       "examples": [
         {
+          "id": 825,
+          "description": "Ванга, Гамлет",
+          "url": "https://www.youtube.com/watch?v=DPT-qEHQMrc",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "DPT-qEHQMrc"
+        },
+        {
           "id": 817,
           "description": "Ильхам Алиев, президент Азербайджана, Гамлет",
           "url": "https://www.youtube.com/watch?v=AnGxLsFa0tg",
