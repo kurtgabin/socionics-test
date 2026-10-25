@@ -580,6 +580,14 @@ window.TYPE_EXAMPLES = {
       "name": "Гюго",
       "examples": [
         {
+          "id": 834,
+          "description": "Немцов, Гюго",
+          "url": "https://www.youtube.com/watch?v=6BNwGWj27wU",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "6BNwGWj27wU"
+        },
+        {
           "id": 811,
           "description": "Ираклий Кобахидзе, премьер Грузии, Гюго",
           "url": "https://www.youtube.com/watch?v=J3MWGlQ2AEI",
@@ -1946,6 +1954,14 @@ window.TYPE_EXAMPLES = {
       "name": "Жуков",
       "examples": [
         {
+          "id": 826,
+          "description": "Геннадий Зюганов, Жуков",
+          "url": "https://www.youtube.com/watch?v=9VDMdFUgN_4",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "9VDMdFUgN_4"
+        },
+        {
           "id": 794,
           "description": "Хован, Жук",
           "url": "https://www.youtube.com/watch?v=NAEnvR7yEvM",
@@ -2257,6 +2273,22 @@ window.TYPE_EXAMPLES = {
       "name": "Есенин",
       "examples": [
         {
+          "id": 836,
+          "description": "Виталий Кличко, Есенин",
+          "url": "https://www.youtube.com/watch?v=AFtRVAHoqw8",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "AFtRVAHoqw8"
+        },
+        {
+          "id": 833,
+          "description": "Сергей Миронов, Есенин",
+          "url": "https://www.youtube.com/watch?v=LYiuHK9imPs",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "LYiuHK9imPs"
+        },
+        {
           "id": 782,
           "types": ["ese", "iei"],
           "description": "Петросян, Гюго, и Степаненко, Еська",
@@ -2457,14 +2489,6 @@ window.TYPE_EXAMPLES = {
           "platform": "youtube",
           "youtube_kind": "video",
           "youtube_id": "ucAlzcdf04Q"
-        },
-        {
-          "id": 351,
-          "description": "Есенка, с названием видео не обманула",
-          "url": "https://www.youtube.com/watch?v=mW74FPrjmyk",
-          "platform": "youtube",
-          "youtube_kind": "video",
-          "youtube_id": "mW74FPrjmyk"
         },
         {
           "id": 315,
@@ -3109,10 +3133,10 @@ window.TYPE_EXAMPLES = {
         {
           "id": 304,
           "description": "Сергей Мавроди, Баль",
-          "url": "https://www.youtube.com/watch?v=dnmgnDqKL9c",
+          "url": "https://www.youtube.com/watch?v=ok7rCXWP6UY",
           "platform": "youtube",
           "youtube_kind": "video",
-          "youtube_id": "dnmgnDqKL9c"
+          "youtube_id": "ok7rCXWP6UY"
         },
         {
           "id": 272,
@@ -3283,6 +3307,14 @@ window.TYPE_EXAMPLES = {
       "abbr": "ЛИЭ",
       "name": "Джек Лондон",
       "examples": [
+        {
+          "id": 828,
+          "description": "Майкл Наки, Джек",
+          "url": "https://www.youtube.com/watch?v=tiWVcbYw7_4",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "tiWVcbYw7_4"
+        },
         {
           "id": 805,
           "description": "Лололошка, Джек ЭЛФВ",
@@ -3786,6 +3818,14 @@ window.TYPE_EXAMPLES = {
       "abbr": "ЭСИ",
       "name": "Драйзер",
       "examples": [
+        {
+          "id": 835,
+          "description": "Автор крылатого выражения про полимеры, Драйзер",
+          "url": "https://www.youtube.com/watch?v=FpDR4gPmoIc",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "FpDR4gPmoIc"
+        },
         {
           "id": 819,
           "description": "Греф, Драйзер 3Э",
@@ -4465,6 +4505,14 @@ window.TYPE_EXAMPLES = {
       "name": "Достоевский",
       "examples": [
         {
+          "id": 827,
+          "description": "Ангела Меркель, Достоевская",
+          "url": "https://www.youtube.com/watch?v=xdQ_TEAHAd4",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "xdQ_TEAHAd4"
+        },
+        {
           "id": 824,
           "description": "Войнович, Дост",
           "url": "https://www.youtube.com/watch?v=6jngNmWl9J8",
@@ -4758,6 +4806,22 @@ window.TYPE_EXAMPLES = {
       "abbr": "ИЭЭ",
       "name": "Гексли",
       "examples": [
+        {
+          "id": 830,
+          "description": "Юрий Гагарин, Гек",
+          "url": "https://www.youtube.com/watch?v=ANER8QGaMxE",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "ANER8QGaMxE"
+        },
+        {
+          "id": 829,
+          "description": "Юрий Гагарин, Гек",
+          "url": "https://www.youtube.com/watch?v=lTKoaY9H_Yw",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "lTKoaY9H_Yw"
+        },
         {
           "id": 822,
           "types": ["lse", "iee"],
@@ -5121,6 +5185,14 @@ window.TYPE_EXAMPLES = {
       "abbr": "СЛИ",
       "name": "Габен",
       "examples": [
+        {
+          "id": 832,
+          "description": "Сергей Королев, Габен",
+          "url": "https://www.youtube.com/watch?v=OMmIWmW0MlY",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "OMmIWmW0MlY"
+        },
         {
           "id": 813,
           "description": "Гурбангулы Бердымухамедов, председатель Халк Маслахаты Туркменистана, Габен",
