@@ -2131,6 +2131,14 @@ window.TYPE_EXAMPLES = {
           "youtube_id": "nancWDPxpq8"
         },
         {
+          "id": 378,
+          "description": "Азаза (древний мем), Жучка",
+          "url": "https://www.youtube.com/watch?v=z6eFLHtV6h8",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "z6eFLHtV6h8"
+        },
+        {
           "id": 368,
           "description": "Бонус к Жучке 4Э: вид из глаз базового сенсорика",
           "url": "https://www.youtube.com/watch?v=_yk-0fpfwAs",
@@ -2809,14 +2817,6 @@ window.TYPE_EXAMPLES = {
           "platform": "youtube",
           "youtube_kind": "video",
           "youtube_id": "NcgDNJMxdUg"
-        },
-        {
-          "id": 378,
-          "description": "Азаза (древний мем), Напка",
-          "url": "https://www.youtube.com/watch?v=z6eFLHtV6h8",
-          "platform": "youtube",
-          "youtube_kind": "video",
-          "youtube_id": "z6eFLHtV6h8"
         },
         {
           "id": 335,
@@ -4279,6 +4279,14 @@ window.TYPE_EXAMPLES = {
       "abbr": "ЛСЭ",
       "name": "Штирлиц",
       "examples": [
+        {
+          "id": 837,
+          "description": "Андрейсаныч, 4Э, очень рад этому моменту",
+          "url": "https://www.youtube.com/watch?v=nZK7LHmTK8c",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "nZK7LHmTK8c"
+        },
         {
           "id": 822,
           "types": ["lse", "iee"],
