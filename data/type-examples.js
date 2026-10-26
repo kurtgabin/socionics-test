@@ -245,6 +245,14 @@ window.TYPE_EXAMPLES = {
       "name": "Дюма",
       "examples": [
         {
+          "id": 838,
+          "description": "Элла Памфилова, Дюма",
+          "url": "https://www.youtube.com/watch?v=l2Nq4IDi3Jk",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "l2Nq4IDi3Jk"
+        },
+        {
           "id": 816,
           "description": "Эмомали Рахмон, лидер нации Таджикистана",
           "url": "https://www.youtube.com/watch?v=gFtvKik1lhY",
@@ -579,6 +587,14 @@ window.TYPE_EXAMPLES = {
       "abbr": "ЭСЭ",
       "name": "Гюго",
       "examples": [
+        {
+          "id": 840,
+          "description": "Владелец Вкусно и Точка, Гюго",
+          "url": "https://www.youtube.com/watch?v=XHGYNbWuc4M",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "XHGYNbWuc4M"
+        },
         {
           "id": 834,
           "description": "Немцов, Гюго",
@@ -2932,7 +2948,7 @@ window.TYPE_EXAMPLES = {
         },
         {
           "id": 773,
-          "description": "Ладимир Семенов, Баль",
+          "description": "Ладимир Семенов, инвестор в акции, Баль",
           "url": "https://www.youtube.com/watch?v=x_7_AG7uAUQ",
           "platform": "youtube",
           "youtube_kind": "video",
@@ -4815,6 +4831,14 @@ window.TYPE_EXAMPLES = {
       "name": "Гексли",
       "examples": [
         {
+          "id": 841,
+          "description": "Мария Корина Мачадо, следующий президент Венесуэлы",
+          "url": "https://www.youtube.com/watch?v=UQ_2MwLrQ94",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "UQ_2MwLrQ94"
+        },
+        {
           "id": 830,
           "description": "Юрий Гагарин, Гек",
           "url": "https://www.youtube.com/watch?v=ANER8QGaMxE",
@@ -5075,7 +5099,7 @@ window.TYPE_EXAMPLES = {
         },
         {
           "id": 290,
-          "description": "Элвис Марламов, инвестор",
+          "description": "Элвис Марламов, инвестор в акции",
           "url": "https://www.youtube.com/watch?v=1cbGa4TQAlM",
           "platform": "youtube",
           "youtube_kind": "video",
@@ -5219,7 +5243,7 @@ window.TYPE_EXAMPLES = {
         },
         {
           "id": 776,
-          "description": "Лариса Морозова, инвестор",
+          "description": "Лариса Морозова, инвестор в акции",
           "url": "https://www.youtube.com/watch?v=5Y8lruxeIxY",
           "platform": "youtube",
           "youtube_kind": "video",
