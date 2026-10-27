@@ -5,6 +5,22 @@ window.TYPE_EXAMPLES = {
       "name": "Дон Кихот",
       "examples": [
         {
+          "id": 844,
+          "description": "Петер Мадьяр, премьер Венгрии, Дон",
+          "url": "https://www.youtube.com/watch?v=e7U82MzYZgA",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "e7U82MzYZgA"
+        },
+        {
+          "id": 843,
+          "description": "Дэвид Боуи, Дон",
+          "url": "https://www.youtube.com/watch?v=lR7SmMk5CKA",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "lR7SmMk5CKA"
+        },
+        {
           "id": 821,
           "description": "Мария Маркова, Донка",
           "url": "https://www.youtube.com/watch?v=_SYvysEDU_E",
@@ -244,6 +260,14 @@ window.TYPE_EXAMPLES = {
       "abbr": "СЭИ",
       "name": "Дюма",
       "examples": [
+        {
+          "id": 845,
+          "description": "Алексей Леонов, Дюма",
+          "url": "https://www.youtube.com/watch?v=jsjKlj9B7hs",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "jsjKlj9B7hs"
+        },
         {
           "id": 838,
           "description": "Элла Памфилова, Дюма",
@@ -1979,7 +2003,7 @@ window.TYPE_EXAMPLES = {
         },
         {
           "id": 794,
-          "description": "Хован, Жук",
+          "description": "Хованский, Жук",
           "url": "https://www.youtube.com/watch?v=NAEnvR7yEvM",
           "platform": "youtube",
           "youtube_kind": "video",
@@ -1987,7 +2011,7 @@ window.TYPE_EXAMPLES = {
         },
         {
           "id": 775,
-          "description": "Орбан, президент Венгрии, Жук",
+          "description": "Виктор Орбан, премьер Венгрии, Жук",
           "url": "https://www.youtube.com/watch?v=tHWObBGEDnQ",
           "platform": "youtube",
           "youtube_kind": "video",
@@ -3324,6 +3348,14 @@ window.TYPE_EXAMPLES = {
       "name": "Джек Лондон",
       "examples": [
         {
+          "id": 842,
+          "description": "Березовский, Джек",
+          "url": "https://www.youtube.com/watch?v=B_j4cVhVWJE",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "B_j4cVhVWJE"
+        },
+        {
           "id": 828,
           "description": "Майкл Наки, Джек",
           "url": "https://www.youtube.com/watch?v=tiWVcbYw7_4",
@@ -3834,6 +3866,14 @@ window.TYPE_EXAMPLES = {
       "abbr": "ЭСИ",
       "name": "Драйзер",
       "examples": [
+        {
+          "id": 846,
+          "description": "Валентина Терешкова, Драйзер",
+          "url": "https://www.youtube.com/watch?v=t1rsREPM7MA",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "t1rsREPM7MA"
+        },
         {
           "id": 835,
           "description": "Автор крылатого выражения про полимеры, Драйзер",
