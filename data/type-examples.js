@@ -1569,6 +1569,14 @@ window.TYPE_EXAMPLES = {
       "name": "Максим Горький",
       "examples": [
         {
+          "id": 847,
+          "description": "Светлана Баскова, которая сняла Зеленого Слоника (и тем самым, в общем-то, предсказала твою жизнь), Максимка",
+          "url": "https://www.youtube.com/watch?v=yFABXRg35ZU",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "yFABXRg35ZU"
+        },
+        {
           "id": 802,
           "description": "Витек, Максим ФВЭЛ",
           "url": "https://www.youtube.com/watch?v=QQV9shjz71A",
@@ -2321,6 +2329,14 @@ window.TYPE_EXAMPLES = {
       "name": "Есенин",
       "examples": [
         {
+          "id": 849,
+          "description": "Звягинцев, Есенин",
+          "url": "https://www.youtube.com/watch?v=GJIyv2WZgd4",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "GJIyv2WZgd4"
+        },
+        {
           "id": 836,
           "description": "Виталий Кличко, Есенин",
           "url": "https://www.youtube.com/watch?v=AFtRVAHoqw8",
@@ -2953,6 +2969,14 @@ window.TYPE_EXAMPLES = {
       "abbr": "ИЛИ",
       "name": "Бальзак",
       "examples": [
+        {
+          "id": 848,
+          "description": "Таланкин, Баль",
+          "url": "https://www.youtube.com/watch?v=1QNr1NXX1mY",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "1QNr1NXX1mY"
+        },
         {
           "id": 820,
           "description": "Набиулина, Балька",
