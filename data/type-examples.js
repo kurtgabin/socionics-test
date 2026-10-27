@@ -30,7 +30,7 @@ window.TYPE_EXAMPLES = {
         },
         {
           "id": 795,
-          "description": "Монеточка, Джечка",
+          "description": "Монеточка, Донка",
           "url": "https://www.youtube.com/watch?v=irh24L3Jh5Y",
           "platform": "youtube",
           "youtube_kind": "video",
