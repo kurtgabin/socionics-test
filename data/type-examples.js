@@ -938,6 +938,14 @@ window.TYPE_EXAMPLES = {
       "name": "Робеспьер",
       "examples": [
         {
+          "id": 852,
+          "description": "Гречка, рассказывает про музыкальный альбом",
+          "url": "https://www.youtube.com/watch?v=qIj8TjZzjlU",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "qIj8TjZzjlU"
+        },
+        {
           "id": 823,
           "description": "Солженицын, Робеспьер",
           "url": "https://www.youtube.com/watch?v=nURYAgWqYmk",
@@ -2002,6 +2010,14 @@ window.TYPE_EXAMPLES = {
       "name": "Жуков",
       "examples": [
         {
+          "id": 853,
+          "description": "Гречко, рассказывает про полеты в космос",
+          "url": "https://www.youtube.com/watch?v=k3rnImB6NRA",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "k3rnImB6NRA"
+        },
+        {
           "id": 826,
           "description": "Геннадий Зюганов, Жуков",
           "url": "https://www.youtube.com/watch?v=9VDMdFUgN_4",
@@ -2612,7 +2628,7 @@ window.TYPE_EXAMPLES = {
         },
         {
           "id": 147,
-          "description": "Белоусов, министр обороны, Есенин",
+          "description": "Андрей Белоусов, Есенин",
           "url": "https://www.youtube.com/watch?v=uLl_GiuhxkM",
           "platform": "youtube",
           "youtube_kind": "video",
@@ -2620,7 +2636,7 @@ window.TYPE_EXAMPLES = {
         },
         {
           "id": 146,
-          "description": "Белоусов, министр обороны, Есенин",
+          "description": "Андрей Белоусов, Есенин",
           "url": "https://www.youtube.com/watch?v=LR5MpmKOXmQ",
           "platform": "youtube",
           "youtube_kind": "video",
@@ -2652,7 +2668,7 @@ window.TYPE_EXAMPLES = {
         },
         {
           "id": 71,
-          "description": "Есенка",
+          "description": "Моя Мишель, Есенка",
           "url": "https://www.youtube.com/watch?v=IYrcV3fBAo0",
           "platform": "youtube",
           "youtube_kind": "video",
@@ -3963,14 +3979,6 @@ window.TYPE_EXAMPLES = {
           "youtube_id": "1KRKLJ63aLY"
         },
         {
-          "id": 750,
-          "description": "Драйзер, про тщеславие",
-          "url": "https://www.youtube.com/watch?v=IuKjdB_89A0",
-          "platform": "youtube",
-          "youtube_kind": "video",
-          "youtube_id": "IuKjdB_89A0"
-        },
-        {
           "id": 746,
           "description": "Драйзер, про бесов среди нас",
           "url": "https://www.youtube.com/watch?v=lONG9on_qZg",
@@ -4894,6 +4902,14 @@ window.TYPE_EXAMPLES = {
       "abbr": "ИЭЭ",
       "name": "Гексли",
       "examples": [
+        {
+          "id": 851,
+          "description": "Гечка, разъясняет котикам практику Верховного Суда",
+          "url": "https://www.youtube.com/watch?v=0_KUp3Xi0fg",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "0_KUp3Xi0fg"
+        },
         {
           "id": 841,
           "description": "Мария Корина Мачадо, следующий президент Венесуэлы",
