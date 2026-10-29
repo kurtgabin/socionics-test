@@ -261,6 +261,14 @@ window.TYPE_EXAMPLES = {
       "name": "Дюма",
       "examples": [
         {
+          "id": 854,
+          "description": "Вольчек, основатель сети булочных, Дюм",
+          "url": "https://www.youtube.com/watch?v=vODx1g2yNkM",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "vODx1g2yNkM"
+        },
+        {
           "id": 845,
           "description": "Алексей Леонов, Дюма",
           "url": "https://www.youtube.com/watch?v=jsjKlj9B7hs",
