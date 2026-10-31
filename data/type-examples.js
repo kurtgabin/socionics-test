@@ -270,7 +270,7 @@ window.TYPE_EXAMPLES = {
       "examples": [
         {
           "id": 859,
-          "description": "Михайил Евдокимов, Дюма",
+          "description": "Михаил Евдокимов, Дюма",
           "url": "https://www.youtube.com/watch?v=29XC-aWocl4",
           "platform": "youtube",
           "youtube_kind": "video",
