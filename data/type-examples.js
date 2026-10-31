@@ -5,6 +5,14 @@ window.TYPE_EXAMPLES = {
       "name": "Дон Кихот",
       "examples": [
         {
+          "id": 857,
+          "description": "Стив Возняк, Дон",
+          "url": "https://www.youtube.com/watch?v=RTEEB0qjDR8",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "RTEEB0qjDR8"
+        },
+        {
           "id": 844,
           "description": "Петер Мадьяр, премьер Венгрии, Дон",
           "url": "https://www.youtube.com/watch?v=e7U82MzYZgA",
@@ -260,6 +268,14 @@ window.TYPE_EXAMPLES = {
       "abbr": "СЭИ",
       "name": "Дюма",
       "examples": [
+        {
+          "id": 859,
+          "description": "Михайил Евдокимов, Дюма",
+          "url": "https://www.youtube.com/watch?v=29XC-aWocl4",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "29XC-aWocl4"
+        },
         {
           "id": 854,
           "description": "Вольчек, основатель сети булочных, Дюм",
@@ -1120,6 +1136,22 @@ window.TYPE_EXAMPLES = {
       "abbr": "ЭИЭ",
       "name": "Гамлет",
       "examples": [
+        {
+          "id": 858,
+          "description": "Эдвард Сноуден, Гамлет",
+          "url": "https://www.youtube.com/watch?v=ZSu4rCizyUM",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "ZSu4rCizyUM"
+        },
+        {
+          "id": 856,
+          "description": "Стив Джобс, Гамлет",
+          "url": "https://www.youtube.com/watch?v=ig7IWlznXd4",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "ig7IWlznXd4"
+        },
         {
           "id": 825,
           "description": "Ванга, Гамлет",
