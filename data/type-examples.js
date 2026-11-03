@@ -1075,6 +1075,14 @@ window.TYPE_EXAMPLES = {
           "youtube_id": "NoY5oEX6ZNc"
         },
         {
+          "id": 297,
+          "description": "Михаил Горбачев, Роб 3Л",
+          "url": "https://www.youtube.com/watch?v=Ahe5M_uOYME",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "Ahe5M_uOYME"
+        },
+        {
           "id": 277,
           "description": "Робеспьер из списка Форбс",
           "url": "https://www.youtube.com/watch?v=kMuNGh4LnMo",
@@ -1616,6 +1624,14 @@ window.TYPE_EXAMPLES = {
       "abbr": "ЛСИ",
       "name": "Максим Горький",
       "examples": [
+        {
+          "id": 860,
+          "description": "Анатолий Трушкин, Макс",
+          "url": "https://www.youtube.com/watch?v=hsgiWnQIAho",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "hsgiWnQIAho"
+        },
         {
           "id": 847,
           "description": "Светлана Баскова, которая сняла Зеленого Слоника (и тем самым, в общем-то, предсказала твою жизнь), Максимка",
@@ -4279,14 +4295,6 @@ window.TYPE_EXAMPLES = {
           "platform": "youtube",
           "youtube_kind": "video",
           "youtube_id": "8TjjU5IAxrI"
-        },
-        {
-          "id": 297,
-          "description": "Михаил Горбачев, Драйзер 3Л",
-          "url": "https://www.youtube.com/watch?v=8dQIaBAKhBY",
-          "platform": "youtube",
-          "youtube_kind": "video",
-          "youtube_id": "8dQIaBAKhBY"
         },
         {
           "id": 281,
