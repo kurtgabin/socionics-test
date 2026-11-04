@@ -2417,6 +2417,14 @@ window.TYPE_EXAMPLES = {
       "name": "Есенин",
       "examples": [
         {
+          "id": 867,
+          "description": "Волочкова, Есенка",
+          "url": "https://www.youtube.com/watch?v=hRSi2ghwfCM",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "hRSi2ghwfCM"
+        },
+        {
           "id": 849,
           "description": "Звягинцев, Есенин",
           "url": "https://www.youtube.com/watch?v=GJIyv2WZgd4",
