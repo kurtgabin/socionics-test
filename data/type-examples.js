@@ -295,10 +295,10 @@ window.TYPE_EXAMPLES = {
         {
           "id": 838,
           "description": "Элла Памфилова, Дюма",
-          "url": "https://www.youtube.com/watch?v=l2Nq4IDi3Jk",
+          "url": "https://www.youtube.com/watch?v=xgkafQji82I",
           "platform": "youtube",
           "youtube_kind": "video",
-          "youtube_id": "l2Nq4IDi3Jk"
+          "youtube_id": "xgkafQji82I"
         },
         {
           "id": 816,
@@ -635,6 +635,14 @@ window.TYPE_EXAMPLES = {
       "abbr": "ЭСЭ",
       "name": "Гюго",
       "examples": [
+        {
+          "id": 864,
+          "description": "Марина Кравец, Гюго",
+          "url": "https://www.youtube.com/watch?v=gIb4ZPhlyk4",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "gIb4ZPhlyk4"
+        },
         {
           "id": 840,
           "description": "Владелец Вкусно и Точка, Гюго",
@@ -3963,6 +3971,14 @@ window.TYPE_EXAMPLES = {
       "name": "Драйзер",
       "examples": [
         {
+          "id": 862,
+          "description": "Владимир Мединский, Драй",
+          "url": "https://www.youtube.com/watch?v=kS4tvVyZxds",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "kS4tvVyZxds"
+        },
+        {
           "id": 846,
           "description": "Валентина Терешкова, Драйзер",
           "url": "https://www.youtube.com/watch?v=t1rsREPM7MA",
@@ -4415,6 +4431,14 @@ window.TYPE_EXAMPLES = {
       "abbr": "ЛСЭ",
       "name": "Штирлиц",
       "examples": [
+        {
+          "id": 863,
+          "description": "Кирилл Дмитриев, Штир",
+          "url": "https://www.youtube.com/watch?v=54i7wNqMDHY",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "54i7wNqMDHY"
+        },
         {
           "id": 837,
           "description": "Андрейсаныч, 4Э, очень рад этому моменту",
