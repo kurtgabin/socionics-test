@@ -4673,6 +4673,14 @@ window.TYPE_EXAMPLES = {
       "name": "Достоевский",
       "examples": [
         {
+          "id": 865,
+          "description": "Орлуша с Business FM, Дост 3Э",
+          "url": "https://www.youtube.com/watch?v=pLGc0z-Pcl0",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "pLGc0z-Pcl0"
+        },
+        {
           "id": 827,
           "description": "Ангела Меркель, Достоевская",
           "url": "https://www.youtube.com/watch?v=xdQ_TEAHAd4",
