@@ -636,6 +636,14 @@ window.TYPE_EXAMPLES = {
       "name": "Гюго",
       "examples": [
         {
+          "id": 866,
+          "description": "Надя Грошева с Business FM, Гюгошка",
+          "url": "https://www.youtube.com/watch?v=-Iium035dhk",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "-Iium035dhk"
+        },
+        {
           "id": 864,
           "description": "Марина Кравец, Гюго",
           "url": "https://www.youtube.com/watch?v=gIb4ZPhlyk4",
