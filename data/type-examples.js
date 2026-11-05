@@ -2403,6 +2403,14 @@ window.TYPE_EXAMPLES = {
           "youtube_id": "Kslba7_hsKY"
         },
         {
+          "id": 102,
+          "description": "Аушра Аугустинавичюте, основательница соционики, Жук-шизофреник",
+          "url": "https://www.youtube.com/watch?v=MCJZWuz8V_o",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "MCJZWuz8V_o"
+        },
+        {
           "id": 33,
           "description": "Стендапер Жук",
           "url": "https://www.youtube.com/watch?v=YrkMaP7zSNU",
@@ -4407,14 +4415,6 @@ window.TYPE_EXAMPLES = {
           "platform": "youtube",
           "youtube_kind": "video",
           "youtube_id": "Nxeje8h2vs4"
-        },
-        {
-          "id": 102,
-          "description": "Аушра Аугустинавичюте, основательница соционики, Драйзер 3Л",
-          "url": "https://www.youtube.com/watch?v=MCJZWuz8V_o",
-          "platform": "youtube",
-          "youtube_kind": "video",
-          "youtube_id": "MCJZWuz8V_o"
         },
         {
           "id": 94,
