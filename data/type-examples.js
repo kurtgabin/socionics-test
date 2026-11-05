@@ -295,10 +295,10 @@ window.TYPE_EXAMPLES = {
         {
           "id": 838,
           "description": "Элла Памфилова, Дюма",
-          "url": "https://www.youtube.com/watch?v=xgkafQji82I",
+          "url": "https://www.youtube.com/watch?v=EnVrRdaS6BQ",
           "platform": "youtube",
           "youtube_kind": "video",
-          "youtube_id": "xgkafQji82I"
+          "youtube_id": "EnVrRdaS6BQ"
         },
         {
           "id": 816,
@@ -412,14 +412,6 @@ window.TYPE_EXAMPLES = {
           "platform": "youtube",
           "youtube_kind": "video",
           "youtube_id": "SNseRrRVjR0"
-        },
-        {
-          "id": 419,
-          "description": "Дюмашка, мечтает стать пчеловодом",
-          "url": "https://www.youtube.com/watch?v=po7WbdY5ulc",
-          "platform": "youtube",
-          "youtube_kind": "video",
-          "youtube_id": "po7WbdY5ulc"
         },
         {
           "id": 405,
@@ -5543,7 +5535,7 @@ window.TYPE_EXAMPLES = {
         },
         {
           "id": 258,
-          "description": "Габеночка про детство",
+          "description": "Габеночка 3Ф про детство",
           "url": "https://www.youtube.com/watch?v=vgFt2vk3HH8",
           "platform": "youtube",
           "youtube_kind": "video",
