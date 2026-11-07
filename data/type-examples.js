@@ -1633,6 +1633,14 @@ window.TYPE_EXAMPLES = {
       "name": "Максим Горький",
       "examples": [
         {
+          "id": 869,
+          "description": "Дед, Максим",
+          "url": "https://www.youtube.com/watch?v=aokdk8lI4AA",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "aokdk8lI4AA"
+        },
+        {
           "id": 860,
           "description": "Анатолий Трушкин, Макс",
           "url": "https://www.youtube.com/watch?v=hsgiWnQIAho",
@@ -2416,6 +2424,14 @@ window.TYPE_EXAMPLES = {
       "abbr": "ИЭИ",
       "name": "Есенин",
       "examples": [
+        {
+          "id": 868,
+          "description": "Эдуард Лимонов, Есенин",
+          "url": "https://www.youtube.com/watch?v=WTMwuMVNTM0",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "WTMwuMVNTM0"
+        },
         {
           "id": 867,
           "description": "Волочкова, Есенка",
