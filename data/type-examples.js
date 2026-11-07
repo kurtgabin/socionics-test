@@ -1153,6 +1153,14 @@ window.TYPE_EXAMPLES = {
       "name": "Гамлет",
       "examples": [
         {
+          "id": 865,
+          "description": "Орлуша с Business FM, Гам 3Э",
+          "url": "https://www.youtube.com/watch?v=pLGc0z-Pcl0",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "pLGc0z-Pcl0"
+        },
+        {
           "id": 858,
           "description": "Эдвард Сноуден, Гамлет",
           "url": "https://www.youtube.com/watch?v=ZSu4rCizyUM",
@@ -4696,14 +4704,6 @@ window.TYPE_EXAMPLES = {
       "abbr": "ЭИИ",
       "name": "Достоевский",
       "examples": [
-        {
-          "id": 865,
-          "description": "Орлуша с Business FM, Дост 3Э",
-          "url": "https://www.youtube.com/watch?v=pLGc0z-Pcl0",
-          "platform": "youtube",
-          "youtube_kind": "video",
-          "youtube_id": "pLGc0z-Pcl0"
-        },
         {
           "id": 827,
           "description": "Ангела Меркель, Достоевская",
