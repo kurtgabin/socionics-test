@@ -269,14 +269,6 @@ window.TYPE_EXAMPLES = {
       "name": "Дюма",
       "examples": [
         {
-          "id": 859,
-          "description": "Михаил Евдокимов, Дюма",
-          "url": "https://www.youtube.com/watch?v=29XC-aWocl4",
-          "platform": "youtube",
-          "youtube_kind": "video",
-          "youtube_id": "29XC-aWocl4"
-        },
-        {
           "id": 854,
           "description": "Вольчек, основатель сети булочных, Дюм",
           "url": "https://www.youtube.com/watch?v=vODx1g2yNkM",
@@ -5401,6 +5393,14 @@ window.TYPE_EXAMPLES = {
       "abbr": "СЛИ",
       "name": "Габен",
       "examples": [
+        {
+          "id": 859,
+          "description": "Михаил Евдокимов, Габ",
+          "url": "https://www.youtube.com/watch?v=29XC-aWocl4",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "29XC-aWocl4"
+        },
         {
           "id": 832,
           "description": "Сергей Королев, Габен",
