@@ -1633,6 +1633,14 @@ window.TYPE_EXAMPLES = {
       "name": "Максим Горький",
       "examples": [
         {
+          "id": 870,
+          "description": "Юнг, Максим",
+          "url": "https://www.youtube.com/watch?v=YplT_X3JTSU",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "YplT_X3JTSU"
+        },
+        {
           "id": 869,
           "description": "Дед, Максим",
           "url": "https://www.youtube.com/watch?v=aokdk8lI4AA",
