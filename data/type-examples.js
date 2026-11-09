@@ -3502,10 +3502,10 @@ window.TYPE_EXAMPLES = {
         {
           "id": 871,
           "description": "Осеннее обострение у Джека",
-          "url": "https://www.youtube.com/watch?v=B5KbGO5EEvs",
+          "url": "https://www.youtube.com/watch?v=1YQ-kzDK4hY",
           "platform": "youtube",
           "youtube_kind": "video",
-          "youtube_id": "B5KbGO5EEvs"
+          "youtube_id": "1YQ-kzDK4hY"
         },
         {
           "id": 842,
