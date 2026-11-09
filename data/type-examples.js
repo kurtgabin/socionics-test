@@ -3090,6 +3090,14 @@ window.TYPE_EXAMPLES = {
       "name": "Бальзак",
       "examples": [
         {
+          "id": 872,
+          "description": "Осеннее обострение у Балечки",
+          "url": "https://www.youtube.com/watch?v=bpVHnDqEVsU",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "bpVHnDqEVsU"
+        },
+        {
           "id": 848,
           "description": "Таланкин, Баль",
           "url": "https://www.youtube.com/watch?v=1QNr1NXX1mY",
@@ -3491,6 +3499,14 @@ window.TYPE_EXAMPLES = {
       "abbr": "ЛИЭ",
       "name": "Джек Лондон",
       "examples": [
+        {
+          "id": 871,
+          "description": "Осеннее обострение у Джека",
+          "url": "https://www.youtube.com/watch?v=B5KbGO5EEvs",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "B5KbGO5EEvs"
+        },
         {
           "id": 842,
           "description": "Березовский, Джек",
