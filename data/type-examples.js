@@ -2090,6 +2090,14 @@ window.TYPE_EXAMPLES = {
       "name": "Жуков",
       "examples": [
         {
+          "id": 873,
+          "description": "Жучка, рассказывает про Патрисию Каас и сотону",
+          "url": "https://www.youtube.com/watch?v=a3TGIPEIPL4",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "a3TGIPEIPL4"
+        },
+        {
           "id": 853,
           "description": "Гречко, рассказывает про полеты в космос",
           "url": "https://www.youtube.com/watch?v=k3rnImB6NRA",
@@ -2277,10 +2285,10 @@ window.TYPE_EXAMPLES = {
         {
           "id": 378,
           "description": "Азаза (древний мем), Жучка",
-          "url": "https://www.youtube.com/watch?v=z6eFLHtV6h8",
+          "url": "https://www.youtube.com/watch?v=wi-KTf2J7GU",
           "platform": "youtube",
           "youtube_kind": "video",
-          "youtube_id": "z6eFLHtV6h8"
+          "youtube_id": "wi-KTf2J7GU"
         },
         {
           "id": 368,
@@ -3090,6 +3098,14 @@ window.TYPE_EXAMPLES = {
       "name": "Бальзак",
       "examples": [
         {
+          "id": 874,
+          "description": "Дельфин",
+          "url": "https://www.youtube.com/watch?v=OwGuYuSP5HA",
+          "platform": "youtube",
+          "youtube_kind": "video",
+          "youtube_id": "OwGuYuSP5HA"
+        },
+        {
           "id": 872,
           "description": "Осеннее обострение у Балечки",
           "url": "https://www.youtube.com/watch?v=bpVHnDqEVsU",
@@ -3804,28 +3820,12 @@ window.TYPE_EXAMPLES = {
           "youtube_id": "VlpdfP-wjjA"
         },
         {
-          "id": 289,
-          "description": "Дональд Трамп — Джек ЭВФЛ",
-          "url": "https://www.youtube.com/watch?v=11sL80vOOuE",
-          "platform": "youtube",
-          "youtube_kind": "video",
-          "youtube_id": "11sL80vOOuE"
-        },
-        {
-          "id": 288,
-          "description": "Дональд Трамп — Джек ЭВФЛ",
-          "url": "https://www.youtube.com/watch?v=67U9hJpeML4",
-          "platform": "youtube",
-          "youtube_kind": "video",
-          "youtube_id": "67U9hJpeML4"
-        },
-        {
           "id": 287,
           "description": "Дональд Трамп — Джек ЭВФЛ",
-          "url": "https://www.youtube.com/watch?v=3DjMwM6175Q",
+          "url": "https://www.youtube.com/watch?v=qIdWsOP-yB8",
           "platform": "youtube",
           "youtube_kind": "video",
-          "youtube_id": "3DjMwM6175Q"
+          "youtube_id": "qIdWsOP-yB8"
         },
         {
           "id": 285,
@@ -5572,14 +5572,6 @@ window.TYPE_EXAMPLES = {
           "platform": "youtube",
           "youtube_kind": "video",
           "youtube_id": "yrt_rEYiLBQ"
-        },
-        {
-          "id": 258,
-          "description": "Габеночка 3Ф про детство",
-          "url": "https://www.youtube.com/watch?v=vgFt2vk3HH8",
-          "platform": "youtube",
-          "youtube_kind": "video",
-          "youtube_id": "vgFt2vk3HH8"
         },
         {
           "id": 231,
